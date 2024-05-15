@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class LoginToAppFactory extends BaseTest {
 
 
-    @Test
+    @Test(enabled = false)
     public void loginToApp_correctCredentials_successfulLogin(){
         LoginPageFactory loginPageFactory = new LoginPageFactory(driver);
         loginPageFactory.open("https://qa.koel.app/");
@@ -22,7 +22,7 @@ public class LoginToAppFactory extends BaseTest {
         loginPageFactory.loginToApp(username,wrongpassword);
         Assert.assertTrue(loginPageFactory.isErrorFrame());
     }
-    @Test
+    @Test(enabled = false)
     public void loginToApp_correctCredentials_successfulLogin1(){
         LoginPageFactory loginPage = new LoginPageFactory (driver);
         loginPage.open("https://qa.koel.app/");

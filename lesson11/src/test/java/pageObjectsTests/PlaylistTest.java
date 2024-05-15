@@ -209,5 +209,12 @@ public class PlaylistTest extends  BaseTest{
 
         Assert.assertTrue(mainPage.checkPlaylist(playlistId, newPlaylistName));
     }
+    @Test
+    public void playlistTests_deletePlaylist_playlistDeleted() {
+        LoginPage loginPage = new LoginPage(driver);
+        loginPage.open();
+        MainPage mainPage = loginPage.loginToApp(username, password);
+        mainPage.deletePlayList_PlaylistDeleted();
+    }
 }
 

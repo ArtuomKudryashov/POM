@@ -26,7 +26,7 @@ public class BrowserFactory {
     private static WebDriver getChromeDriver() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("window-size=700,1000");
-        options.addArguments("--headless");
+//        options.addArguments("--headless");
         WebDriverManager.chromedriver().setup();
 
         return new ChromeDriver(options);

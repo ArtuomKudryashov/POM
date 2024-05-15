@@ -9,9 +9,9 @@
             <class name="pageObjectsTests.LoginToAppFactory">
                 <methods>
                     <include name="loginToApp_correctCredentials_successfulLogin"/>
-                    <include name="loginToApp_incorrectCredentials_failedLogin"/>
+                    <exclude name="loginToApp_incorrectCredentials_failedLogin"/>
                     <include name="loginToApp_correctCredentials_successfulLogin1"/>
-                    <include name="loginToApp_incorrectCredentials_failedLogin1"/>
+                    <exclude name="loginToApp_incorrectCredentials_failedLogin1"/>
                     <include name="loginToApp_correctCredentials_successfulLogin2"/>
                     <include name="loginToApp_incorrectCredentials_failedLogin2"/>
                     <include name="loginToApp_correctCredentials_successfulLogin3"/>

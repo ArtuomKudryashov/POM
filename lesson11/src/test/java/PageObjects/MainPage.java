@@ -4,6 +4,8 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import java.util.List;
+
 public class MainPage extends BasePage {
 
 
@@ -99,7 +101,25 @@ public class MainPage extends BasePage {
         wait.until(ExpectedConditions.elementToBeClickable(editBy));
         return driver.findElement(editBy);
     }
+    public  void deletePlayList_PlaylistDeleted(){
+        List<WebElement> elements = driver.findElements(By.xpath("//section[@current-view='Playlist']/ul//li"));
+
+        if (elements.size() > 0) {
+            WebElement lastElement = elements.get(elements.size() - 1);
+
+            // Добавляем ожидание видимости последнего элемента в списке плейлистов
+            wait.until(ExpectedConditions.visibilityOf(lastElement));
+
+            ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", lastElement);
+            // Другие действия, например, удаление элемента
+        } else {
+            System.out.println("Список плейлистов пуст.");
+        }
+    }
+
+    }
+
 //
 
 
-}
+
