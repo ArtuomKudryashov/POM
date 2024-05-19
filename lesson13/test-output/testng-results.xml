@@ -1,0 +1,2087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="3" ignored="3" total="39" passed="24" failed="9" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-18T23:53:34 EDT" name="Master Suite" finished-at="2024-05-18T23:56:31 EDT" duration-ms="176950">
+    <groups>
+    </groups>
+    <test started-at="2024-05-18T23:53:34 EDT" name="Main tests" finished-at="2024-05-18T23:56:31 EDT" duration-ms="176950">
+      <class name="pageObjectsTests.LoginToAppFactory">
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326]" started-at="2024-05-18T23:53:34 EDT" name="starUp" finished-at="2024-05-18T23:53:40 EDT" duration-ms="6158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="loginToApp_correctCredentials_successfulLogin2()[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326]" started-at="2024-05-18T23:53:40 EDT" name="loginToApp_correctCredentials_successfulLogin2" finished-at="2024-05-18T23:53:44 EDT" duration-ms="3693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp_correctCredentials_successfulLogin2 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326]" started-at="2024-05-18T23:53:44 EDT" name="tearDown" finished-at="2024-05-18T23:53:49 EDT" duration-ms="4996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp_correctCredentials_successfulLogin2 status=SUCCESS method=LoginToAppFactory.loginToApp_correctCredentials_successfulLogin2()[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326]" started-at="2024-05-18T23:53:49 EDT" name="starUp" finished-at="2024-05-18T23:53:53 EDT" duration-ms="4155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="loginToApp_incorrectCredentials_failedLogin2()[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326]" started-at="2024-05-18T23:53:53 EDT" name="loginToApp_incorrectCredentials_failedLogin2" finished-at="2024-05-18T23:53:56 EDT" duration-ms="2739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp_incorrectCredentials_failedLogin2 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326]" started-at="2024-05-18T23:53:56 EDT" name="tearDown" finished-at="2024-05-18T23:54:02 EDT" duration-ms="6321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp_incorrectCredentials_failedLogin2 status=SUCCESS method=LoginToAppFactory.loginToApp_incorrectCredentials_failedLogin2()[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326]" started-at="2024-05-18T23:54:02 EDT" name="starUp" finished-at="2024-05-18T23:54:06 EDT" duration-ms="3466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="loginToApp_correctCredentials_successfulLogin3()[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326]" started-at="2024-05-18T23:54:06 EDT" name="loginToApp_correctCredentials_successfulLogin3" finished-at="2024-05-18T23:54:08 EDT" duration-ms="2862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp_correctCredentials_successfulLogin3 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326]" started-at="2024-05-18T23:54:08 EDT" name="tearDown" finished-at="2024-05-18T23:54:13 EDT" duration-ms="4586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp_correctCredentials_successfulLogin3 status=SUCCESS method=LoginToAppFactory.loginToApp_correctCredentials_successfulLogin3()[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326]" started-at="2024-05-18T23:54:13 EDT" name="starUp" finished-at="2024-05-18T23:54:17 EDT" duration-ms="3691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="loginToApp_incorrectCredentials_failedLogin3()[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326]" started-at="2024-05-18T23:54:17 EDT" name="loginToApp_incorrectCredentials_failedLogin3" finished-at="2024-05-18T23:54:19 EDT" duration-ms="2458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp_incorrectCredentials_failedLogin3 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326]" started-at="2024-05-18T23:54:19 EDT" name="tearDown" finished-at="2024-05-18T23:54:25 EDT" duration-ms="5507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp_incorrectCredentials_failedLogin3 status=SUCCESS method=LoginToAppFactory.loginToApp_incorrectCredentials_failedLogin3()[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326]" started-at="2024-05-18T23:54:25 EDT" name="starUp" finished-at="2024-05-18T23:54:29 EDT" duration-ms="4403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="loginToApp_correctCredentials_successfulLogin4()[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326]" started-at="2024-05-18T23:54:29 EDT" name="loginToApp_correctCredentials_successfulLogin4" finished-at="2024-05-18T23:54:33 EDT" duration-ms="3494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp_correctCredentials_successfulLogin4 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326]" started-at="2024-05-18T23:54:33 EDT" name="tearDown" finished-at="2024-05-18T23:54:37 EDT" duration-ms="4504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp_correctCredentials_successfulLogin4 status=SUCCESS method=LoginToAppFactory.loginToApp_correctCredentials_successfulLogin4()[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326]" started-at="2024-05-18T23:54:37 EDT" name="starUp" finished-at="2024-05-18T23:54:42 EDT" duration-ms="4617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="loginToApp_incorrectCredentials_failedLogin4()[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326]" started-at="2024-05-18T23:54:42 EDT" name="loginToApp_incorrectCredentials_failedLogin4" finished-at="2024-05-18T23:54:45 EDT" duration-ms="2749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp_incorrectCredentials_failedLogin4 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326]" started-at="2024-05-18T23:54:45 EDT" name="tearDown" finished-at="2024-05-18T23:54:50 EDT" duration-ms="5440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp_incorrectCredentials_failedLogin4 status=SUCCESS method=LoginToAppFactory.loginToApp_incorrectCredentials_failedLogin4()[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326]" started-at="2024-05-18T23:54:50 EDT" name="starUp" finished-at="2024-05-18T23:54:53 EDT" duration-ms="3079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="loginToApp_correctCredentials_successfulLogin5()[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326]" started-at="2024-05-18T23:54:53 EDT" name="loginToApp_correctCredentials_successfulLogin5" finished-at="2024-05-18T23:54:56 EDT" duration-ms="3115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp_correctCredentials_successfulLogin5 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326]" started-at="2024-05-18T23:54:56 EDT" name="tearDown" finished-at="2024-05-18T23:55:02 EDT" duration-ms="5846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp_correctCredentials_successfulLogin5 status=SUCCESS method=LoginToAppFactory.loginToApp_correctCredentials_successfulLogin5()[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326]" started-at="2024-05-18T23:55:02 EDT" name="starUp" finished-at="2024-05-18T23:55:06 EDT" duration-ms="3824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="loginToApp_incorrectCredentials_failedLogin5()[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326]" started-at="2024-05-18T23:55:06 EDT" name="loginToApp_incorrectCredentials_failedLogin5" finished-at="2024-05-18T23:55:08 EDT" duration-ms="2443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp_incorrectCredentials_failedLogin5 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326]" started-at="2024-05-18T23:55:08 EDT" name="tearDown" finished-at="2024-05-18T23:55:13 EDT" duration-ms="4833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp_incorrectCredentials_failedLogin5 status=SUCCESS method=LoginToAppFactory.loginToApp_incorrectCredentials_failedLogin5()[pri:0, instance:pageObjectsTests.LoginToAppFactory@7d64e326] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pageObjectsTests.LoginToAppFactory -->
+      <class name="pageObjectsTests.LoginToApp">
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:53:34 EDT" name="starUp" finished-at="2024-05-18T23:53:40 EDT" duration-ms="6158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method retried="true" signature="flakyTest()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:53:40 EDT" name="flakyTest" finished-at="2024-05-18T23:53:40 EDT" duration-ms="54" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at pageObjectsTests.LoginToApp.flakyTest(LoginToApp.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flakyTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:53:40 EDT" name="tearDown" finished-at="2024-05-18T23:53:46 EDT" duration-ms="5236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flakyTest status=SKIP method=LoginToApp.flakyTest()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:53:46 EDT" name="starUp" finished-at="2024-05-18T23:53:49 EDT" duration-ms="3696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method retried="true" signature="flakyTest()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:53:49 EDT" name="flakyTest" finished-at="2024-05-18T23:53:49 EDT" duration-ms="1" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at pageObjectsTests.LoginToApp.flakyTest(LoginToApp.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flakyTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:53:49 EDT" name="tearDown" finished-at="2024-05-18T23:53:55 EDT" duration-ms="5793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flakyTest status=SKIP method=LoginToApp.flakyTest()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:53:55 EDT" name="starUp" finished-at="2024-05-18T23:54:01 EDT" duration-ms="5977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method retried="true" signature="flakyTest()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:54:01 EDT" name="flakyTest" finished-at="2024-05-18T23:54:01 EDT" duration-ms="1" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at pageObjectsTests.LoginToApp.flakyTest(LoginToApp.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flakyTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:54:01 EDT" name="tearDown" finished-at="2024-05-18T23:54:06 EDT" duration-ms="5010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flakyTest status=SKIP method=LoginToApp.flakyTest()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:54:06 EDT" name="starUp" finished-at="2024-05-18T23:54:10 EDT" duration-ms="4211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="flakyTest()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:54:10 EDT" name="flakyTest" finished-at="2024-05-18T23:54:10 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flakyTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:54:10 EDT" name="tearDown" finished-at="2024-05-18T23:54:15 EDT" duration-ms="4607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flakyTest status=SUCCESS method=LoginToApp.flakyTest()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:54:15 EDT" name="starUp" finished-at="2024-05-18T23:54:19 EDT" duration-ms="3873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="loginToApp_correctCredentials_successfulLogin()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:54:19 EDT" name="loginToApp_correctCredentials_successfulLogin" finished-at="2024-05-18T23:54:22 EDT" duration-ms="2954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp_correctCredentials_successfulLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:54:22 EDT" name="tearDown" finished-at="2024-05-18T23:54:27 EDT" duration-ms="5316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp_correctCredentials_successfulLogin status=SUCCESS method=LoginToApp.loginToApp_correctCredentials_successfulLogin()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:54:27 EDT" name="starUp" finished-at="2024-05-18T23:54:32 EDT" duration-ms="5172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="loginToApp_incorrectCredentials_failedLogin()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:54:32 EDT" name="loginToApp_incorrectCredentials_failedLogin" finished-at="2024-05-18T23:54:35 EDT" duration-ms="2675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp_incorrectCredentials_failedLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:54:35 EDT" name="tearDown" finished-at="2024-05-18T23:54:40 EDT" duration-ms="5310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp_incorrectCredentials_failedLogin status=SUCCESS method=LoginToApp.loginToApp_incorrectCredentials_failedLogin()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:54:40 EDT" name="starUp" finished-at="2024-05-18T23:54:46 EDT" duration-ms="5392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="loginToApp_correctCredentials_successfulLogin1()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:54:46 EDT" name="loginToApp_correctCredentials_successfulLogin1" finished-at="2024-05-18T23:54:49 EDT" duration-ms="3337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp_correctCredentials_successfulLogin1 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:54:49 EDT" name="tearDown" finished-at="2024-05-18T23:54:54 EDT" duration-ms="5270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp_correctCredentials_successfulLogin1 status=SUCCESS method=LoginToApp.loginToApp_correctCredentials_successfulLogin1()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:54:54 EDT" name="starUp" finished-at="2024-05-18T23:54:59 EDT" duration-ms="4894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="loginToApp_incorrectCredentials_failedLogin1()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:54:59 EDT" name="loginToApp_incorrectCredentials_failedLogin1" finished-at="2024-05-18T23:55:02 EDT" duration-ms="2778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp_incorrectCredentials_failedLogin1 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:55:02 EDT" name="tearDown" finished-at="2024-05-18T23:55:07 EDT" duration-ms="5016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp_incorrectCredentials_failedLogin1 status=SUCCESS method=LoginToApp.loginToApp_incorrectCredentials_failedLogin1()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:55:07 EDT" name="starUp" finished-at="2024-05-18T23:55:11 EDT" duration-ms="3935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="loginToApp_correctCredentials_successfulLogin2()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:55:11 EDT" name="loginToApp_correctCredentials_successfulLogin2" finished-at="2024-05-18T23:55:14 EDT" duration-ms="3270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp_correctCredentials_successfulLogin2 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:55:14 EDT" name="tearDown" finished-at="2024-05-18T23:55:18 EDT" duration-ms="4377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp_correctCredentials_successfulLogin2 status=SUCCESS method=LoginToApp.loginToApp_correctCredentials_successfulLogin2()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:55:18 EDT" name="starUp" finished-at="2024-05-18T23:55:21 EDT" duration-ms="2791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="loginToApp_incorrectCredentials_failedLogin2()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:55:21 EDT" name="loginToApp_incorrectCredentials_failedLogin2" finished-at="2024-05-18T23:55:24 EDT" duration-ms="2985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp_incorrectCredentials_failedLogin2 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:55:24 EDT" name="tearDown" finished-at="2024-05-18T23:55:29 EDT" duration-ms="4760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp_incorrectCredentials_failedLogin2 status=SUCCESS method=LoginToApp.loginToApp_incorrectCredentials_failedLogin2()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:55:29 EDT" name="starUp" finished-at="2024-05-18T23:55:32 EDT" duration-ms="2631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="loginToApp_correctCredentials_successfulLogin3()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:55:32 EDT" name="loginToApp_correctCredentials_successfulLogin3" finished-at="2024-05-18T23:55:35 EDT" duration-ms="3190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp_correctCredentials_successfulLogin3 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:55:35 EDT" name="tearDown" finished-at="2024-05-18T23:55:39 EDT" duration-ms="4608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp_correctCredentials_successfulLogin3 status=SUCCESS method=LoginToApp.loginToApp_correctCredentials_successfulLogin3()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:55:39 EDT" name="starUp" finished-at="2024-05-18T23:55:42 EDT" duration-ms="2944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="loginToApp_incorrectCredentials_failedLogin3()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:55:42 EDT" name="loginToApp_incorrectCredentials_failedLogin3" finished-at="2024-05-18T23:55:45 EDT" duration-ms="2689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp_incorrectCredentials_failedLogin3 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:55:45 EDT" name="tearDown" finished-at="2024-05-18T23:55:50 EDT" duration-ms="4644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp_incorrectCredentials_failedLogin3 status=SUCCESS method=LoginToApp.loginToApp_incorrectCredentials_failedLogin3()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:55:50 EDT" name="starUp" finished-at="2024-05-18T23:55:53 EDT" duration-ms="3077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="loginToApp_correctCredentials_successfulLogin4()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:55:53 EDT" name="loginToApp_correctCredentials_successfulLogin4" finished-at="2024-05-18T23:55:56 EDT" duration-ms="2792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp_correctCredentials_successfulLogin4 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:55:56 EDT" name="tearDown" finished-at="2024-05-18T23:56:00 EDT" duration-ms="4396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp_correctCredentials_successfulLogin4 status=SUCCESS method=LoginToApp.loginToApp_correctCredentials_successfulLogin4()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:56:00 EDT" name="starUp" finished-at="2024-05-18T23:56:03 EDT" duration-ms="3340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="loginToApp_incorrectCredentials_failedLogin4()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:56:03 EDT" name="loginToApp_incorrectCredentials_failedLogin4" finished-at="2024-05-18T23:56:06 EDT" duration-ms="2451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp_incorrectCredentials_failedLogin4 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:56:06 EDT" name="tearDown" finished-at="2024-05-18T23:56:10 EDT" duration-ms="4398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp_incorrectCredentials_failedLogin4 status=SUCCESS method=LoginToApp.loginToApp_incorrectCredentials_failedLogin4()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:56:10 EDT" name="starUp" finished-at="2024-05-18T23:56:14 EDT" duration-ms="3411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="loginToApp_correctCredentials_successfulLogin5()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:56:14 EDT" name="loginToApp_correctCredentials_successfulLogin5" finished-at="2024-05-18T23:56:16 EDT" duration-ms="2609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp_correctCredentials_successfulLogin5 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:56:16 EDT" name="tearDown" finished-at="2024-05-18T23:56:21 EDT" duration-ms="4763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp_correctCredentials_successfulLogin5 status=SUCCESS method=LoginToApp.loginToApp_correctCredentials_successfulLogin5()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:56:21 EDT" name="starUp" finished-at="2024-05-18T23:56:24 EDT" duration-ms="3486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="loginToApp_incorrectCredentials_failedLogin5()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:56:24 EDT" name="loginToApp_incorrectCredentials_failedLogin5" finished-at="2024-05-18T23:56:27 EDT" duration-ms="2269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp_incorrectCredentials_failedLogin5 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7]" started-at="2024-05-18T23:56:27 EDT" name="tearDown" finished-at="2024-05-18T23:56:31 EDT" duration-ms="4272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp_incorrectCredentials_failedLogin5 status=SUCCESS method=LoginToApp.loginToApp_incorrectCredentials_failedLogin5()[pri:0, instance:pageObjectsTests.LoginToApp@9ef8eb7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pageObjectsTests.LoginToApp -->
+      <class name="pageObjectsTests.PlaylistTest">
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:53:34 EDT" name="starUp" finished-at="2024-05-18T23:53:40 EDT" duration-ms="6201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="playlistTests_createPlaylist_playlistCreated()[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:53:40 EDT" name="playlistTests_createPlaylist_playlistCreated" finished-at="2024-05-18T23:53:47 EDT" duration-ms="7049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playlistTests_createPlaylist_playlistCreated -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:53:47 EDT" name="tearDown" finished-at="2024-05-18T23:53:52 EDT" duration-ms="5042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=playlistTests_createPlaylist_playlistCreated status=SUCCESS method=PlaylistTest.playlistTests_createPlaylist_playlistCreated()[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:53:52 EDT" name="starUp" finished-at="2024-05-18T23:53:58 EDT" duration-ms="5753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="playlistTests_renamePlaylist_playlistRenamed()[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:53:58 EDT" name="playlistTests_renamePlaylist_playlistRenamed" finished-at="2024-05-18T23:54:16 EDT" duration-ms="17894" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //*[@title='Create a new playlist'] (tried for 15 second(s) with 200 milliseconds interval)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.2, moz:accessibilityChecks: false, moz:buildID: 20240419144423, moz:debuggerAddress: 127.0.0.1:18219, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 18548, moz:profile: C:\Users\acade\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:18219/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5b89dd67-6adc-4133-a914-28230f69246d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@title='Create a new playlist'] (tried for 15 second(s) with 200 milliseconds interval)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.2, moz:accessibilityChecks: false, moz:buildID: 20240419144423, moz:debuggerAddress: 127.0.0.1:18219, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 18548, moz:profile: C:\Users\acade\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:18219/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5b89dd67-6adc-4133-a914-28230f69246d
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at PageObjects.MainPage.getPlusButton(MainPage.java:23)
+at PageObjects.MainPage.createPlaylist(MainPage.java:49)
+at pageObjectsTests.PlaylistTest.playlistTests_renamePlaylist_playlistRenamed(PlaylistTest.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playlistTests_renamePlaylist_playlistRenamed -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:54:16 EDT" name="tearDown" finished-at="2024-05-18T23:54:21 EDT" duration-ms="5024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=playlistTests_renamePlaylist_playlistRenamed status=FAILURE method=PlaylistTest.playlistTests_renamePlaylist_playlistRenamed()[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:54:21 EDT" name="starUp" finished-at="2024-05-18T23:54:25 EDT" duration-ms="4159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="playlistTests_createPlaylist_playlistCreated1()[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:54:25 EDT" name="playlistTests_createPlaylist_playlistCreated1" finished-at="2024-05-18T23:54:33 EDT" duration-ms="7620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playlistTests_createPlaylist_playlistCreated1 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:54:33 EDT" name="tearDown" finished-at="2024-05-18T23:54:37 EDT" duration-ms="4344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=playlistTests_createPlaylist_playlistCreated1 status=SUCCESS method=PlaylistTest.playlistTests_createPlaylist_playlistCreated1()[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:54:37 EDT" name="starUp" finished-at="2024-05-18T23:54:41 EDT" duration-ms="4151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="playlistTests_renamePlaylist_playlistRenamed1()[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:54:41 EDT" name="playlistTests_renamePlaylist_playlistRenamed1" finished-at="2024-05-18T23:54:50 EDT" duration-ms="8196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playlistTests_renamePlaylist_playlistRenamed1 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:54:50 EDT" name="tearDown" finished-at="2024-05-18T23:54:55 EDT" duration-ms="5060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=playlistTests_renamePlaylist_playlistRenamed1 status=SUCCESS method=PlaylistTest.playlistTests_renamePlaylist_playlistRenamed1()[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:54:55 EDT" name="starUp" finished-at="2024-05-18T23:55:00 EDT" duration-ms="5235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="playlistTests_createPlaylist_playlistCreated2()[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:55:00 EDT" name="playlistTests_createPlaylist_playlistCreated2" finished-at="2024-05-18T23:55:03 EDT" duration-ms="3461" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <i class="fa fa-plus-circle create"> is not clickable at point (233,321) because another element <div id="overlay" class="overlay loading"> obscures it
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7a59bd05-7e05-400e-8651-16344fe14653, clickElement {id=adbb76c5-f44c-4c47-b3c0-d65b1a0fa0d4}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.2, moz:accessibilityChecks: false, moz:buildID: 20240419144423, moz:debuggerAddress: 127.0.0.1:38404, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 20712, moz:profile: C:\Users\acade\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:38404/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (7a59bd05-7e05-400e-8651-16344fe14653)] -> xpath: //*[@title='Create a new playlist']]
+Session ID: 7a59bd05-7e05-400e-8651-16344fe14653]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <i class="fa fa-plus-circle create"> is not clickable at point (233,321) because another element <div id="overlay" class="overlay loading"> obscures it
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7a59bd05-7e05-400e-8651-16344fe14653, clickElement {id=adbb76c5-f44c-4c47-b3c0-d65b1a0fa0d4}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.2, moz:accessibilityChecks: false, moz:buildID: 20240419144423, moz:debuggerAddress: 127.0.0.1:38404, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 20712, moz:profile: C:\Users\acade\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:38404/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (7a59bd05-7e05-400e-8651-16344fe14653)] -> xpath: //*[@title='Create a new playlist']]
+Session ID: 7a59bd05-7e05-400e-8651-16344fe14653
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at PageObjects.MainPage.createPlaylist(MainPage.java:49)
+at pageObjectsTests.PlaylistTest.playlistTests_createPlaylist_playlistCreated2(PlaylistTest.java:96)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playlistTests_createPlaylist_playlistCreated2 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:55:03 EDT" name="tearDown" finished-at="2024-05-18T23:55:08 EDT" duration-ms="5174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=playlistTests_createPlaylist_playlistCreated2 status=FAILURE method=PlaylistTest.playlistTests_createPlaylist_playlistCreated2()[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:55:08 EDT" name="starUp" finished-at="2024-05-18T23:55:13 EDT" duration-ms="4101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="playlistTests_renamePlaylist_playlistRenamed2()[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:55:13 EDT" name="playlistTests_renamePlaylist_playlistRenamed2" finished-at="2024-05-18T23:55:16 EDT" duration-ms="3483" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <i class="fa fa-plus-circle create"> is not clickable at point (233,321) because another element <div id="overlay" class="overlay loading"> obscures it
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ac9fde8d-3186-41b3-b095-36bed25339b0, clickElement {id=0d15d9d0-9314-4ad3-954b-d76f8453bae6}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.2, moz:accessibilityChecks: false, moz:buildID: 20240419144423, moz:debuggerAddress: 127.0.0.1:14363, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 18332, moz:profile: C:\Users\acade\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:14363/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (ac9fde8d-3186-41b3-b095-36bed25339b0)] -> xpath: //*[@title='Create a new playlist']]
+Session ID: ac9fde8d-3186-41b3-b095-36bed25339b0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <i class="fa fa-plus-circle create"> is not clickable at point (233,321) because another element <div id="overlay" class="overlay loading"> obscures it
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ac9fde8d-3186-41b3-b095-36bed25339b0, clickElement {id=0d15d9d0-9314-4ad3-954b-d76f8453bae6}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.2, moz:accessibilityChecks: false, moz:buildID: 20240419144423, moz:debuggerAddress: 127.0.0.1:14363, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 18332, moz:profile: C:\Users\acade\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:14363/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (ac9fde8d-3186-41b3-b095-36bed25339b0)] -> xpath: //*[@title='Create a new playlist']]
+Session ID: ac9fde8d-3186-41b3-b095-36bed25339b0
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at PageObjects.MainPage.createPlaylist(MainPage.java:49)
+at pageObjectsTests.PlaylistTest.playlistTests_renamePlaylist_playlistRenamed2(PlaylistTest.java:110)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playlistTests_renamePlaylist_playlistRenamed2 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:55:16 EDT" name="tearDown" finished-at="2024-05-18T23:55:21 EDT" duration-ms="4787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=playlistTests_renamePlaylist_playlistRenamed2 status=FAILURE method=PlaylistTest.playlistTests_renamePlaylist_playlistRenamed2()[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:55:21 EDT" name="starUp" finished-at="2024-05-18T23:55:24 EDT" duration-ms="3261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="playlistTests_createPlaylist_playlistCreated3()[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:55:24 EDT" name="playlistTests_createPlaylist_playlistCreated3" finished-at="2024-05-18T23:55:27 EDT" duration-ms="3367" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <i class="fa fa-plus-circle create"> is not clickable at point (233,321) because another element <div id="overlay" class="overlay loading"> obscures it
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f56cd794-5fc7-49b1-af3e-734ab0f19e32, clickElement {id=d062d1bc-0aa8-439a-becc-07ab0c0a59d5}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.2, moz:accessibilityChecks: false, moz:buildID: 20240419144423, moz:debuggerAddress: 127.0.0.1:22684, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 13456, moz:profile: C:\Users\acade\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:22684/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (f56cd794-5fc7-49b1-af3e-734ab0f19e32)] -> xpath: //*[@title='Create a new playlist']]
+Session ID: f56cd794-5fc7-49b1-af3e-734ab0f19e32]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <i class="fa fa-plus-circle create"> is not clickable at point (233,321) because another element <div id="overlay" class="overlay loading"> obscures it
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f56cd794-5fc7-49b1-af3e-734ab0f19e32, clickElement {id=d062d1bc-0aa8-439a-becc-07ab0c0a59d5}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.2, moz:accessibilityChecks: false, moz:buildID: 20240419144423, moz:debuggerAddress: 127.0.0.1:22684, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 13456, moz:profile: C:\Users\acade\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:22684/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (f56cd794-5fc7-49b1-af3e-734ab0f19e32)] -> xpath: //*[@title='Create a new playlist']]
+Session ID: f56cd794-5fc7-49b1-af3e-734ab0f19e32
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at PageObjects.MainPage.createPlaylist(MainPage.java:49)
+at pageObjectsTests.PlaylistTest.playlistTests_createPlaylist_playlistCreated3(PlaylistTest.java:128)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playlistTests_createPlaylist_playlistCreated3 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:55:27 EDT" name="tearDown" finished-at="2024-05-18T23:55:32 EDT" duration-ms="5013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=playlistTests_createPlaylist_playlistCreated3 status=FAILURE method=PlaylistTest.playlistTests_createPlaylist_playlistCreated3()[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:55:32 EDT" name="starUp" finished-at="2024-05-18T23:55:36 EDT" duration-ms="3126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="playlistTests_renamePlaylist_playlistRenamed3()[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:55:36 EDT" name="playlistTests_renamePlaylist_playlistRenamed3" finished-at="2024-05-18T23:55:39 EDT" duration-ms="3353" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <i class="fa fa-plus-circle create"> is not clickable at point (233,321) because another element <div id="overlay" class="overlay loading"> obscures it
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0637a908-ea2d-4ea4-8d91-5534c51fd7c0, clickElement {id=e3a1d797-a554-494b-ad63-a2ec1e75ae49}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.2, moz:accessibilityChecks: false, moz:buildID: 20240419144423, moz:debuggerAddress: 127.0.0.1:47646, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 15684, moz:profile: C:\Users\acade\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:47646/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (0637a908-ea2d-4ea4-8d91-5534c51fd7c0)] -> xpath: //*[@title='Create a new playlist']]
+Session ID: 0637a908-ea2d-4ea4-8d91-5534c51fd7c0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <i class="fa fa-plus-circle create"> is not clickable at point (233,321) because another element <div id="overlay" class="overlay loading"> obscures it
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0637a908-ea2d-4ea4-8d91-5534c51fd7c0, clickElement {id=e3a1d797-a554-494b-ad63-a2ec1e75ae49}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.2, moz:accessibilityChecks: false, moz:buildID: 20240419144423, moz:debuggerAddress: 127.0.0.1:47646, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 15684, moz:profile: C:\Users\acade\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:47646/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (0637a908-ea2d-4ea4-8d91-5534c51fd7c0)] -> xpath: //*[@title='Create a new playlist']]
+Session ID: 0637a908-ea2d-4ea4-8d91-5534c51fd7c0
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at PageObjects.MainPage.createPlaylist(MainPage.java:49)
+at pageObjectsTests.PlaylistTest.playlistTests_renamePlaylist_playlistRenamed3(PlaylistTest.java:142)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playlistTests_renamePlaylist_playlistRenamed3 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:55:39 EDT" name="tearDown" finished-at="2024-05-18T23:55:44 EDT" duration-ms="4688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=playlistTests_renamePlaylist_playlistRenamed3 status=FAILURE method=PlaylistTest.playlistTests_renamePlaylist_playlistRenamed3()[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:55:44 EDT" name="starUp" finished-at="2024-05-18T23:55:47 EDT" duration-ms="2961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="playlistTests_createPlaylist_playlistCreated4()[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:55:47 EDT" name="playlistTests_createPlaylist_playlistCreated4" finished-at="2024-05-18T23:55:50 EDT" duration-ms="3190" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <i class="fa fa-plus-circle create"> is not clickable at point (233,321) because another element <div id="overlay" class="overlay loading"> obscures it
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ee90e7c3-7428-4260-bd72-c7071526d023, clickElement {id=fd3af2f8-9d5d-40eb-b2f9-0f050157df79}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.2, moz:accessibilityChecks: false, moz:buildID: 20240419144423, moz:debuggerAddress: 127.0.0.1:8116, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 16716, moz:profile: C:\Users\acade\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:8116/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (ee90e7c3-7428-4260-bd72-c7071526d023)] -> xpath: //*[@title='Create a new playlist']]
+Session ID: ee90e7c3-7428-4260-bd72-c7071526d023]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <i class="fa fa-plus-circle create"> is not clickable at point (233,321) because another element <div id="overlay" class="overlay loading"> obscures it
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ee90e7c3-7428-4260-bd72-c7071526d023, clickElement {id=fd3af2f8-9d5d-40eb-b2f9-0f050157df79}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.2, moz:accessibilityChecks: false, moz:buildID: 20240419144423, moz:debuggerAddress: 127.0.0.1:8116, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 16716, moz:profile: C:\Users\acade\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:8116/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (ee90e7c3-7428-4260-bd72-c7071526d023)] -> xpath: //*[@title='Create a new playlist']]
+Session ID: ee90e7c3-7428-4260-bd72-c7071526d023
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at PageObjects.MainPage.createPlaylist(MainPage.java:49)
+at pageObjectsTests.PlaylistTest.playlistTests_createPlaylist_playlistCreated4(PlaylistTest.java:160)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playlistTests_createPlaylist_playlistCreated4 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:55:50 EDT" name="tearDown" finished-at="2024-05-18T23:55:54 EDT" duration-ms="4615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=playlistTests_createPlaylist_playlistCreated4 status=FAILURE method=PlaylistTest.playlistTests_createPlaylist_playlistCreated4()[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:55:54 EDT" name="starUp" finished-at="2024-05-18T23:55:58 EDT" duration-ms="3341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="playlistTests_renamePlaylist_playlistRenamed4()[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:55:58 EDT" name="playlistTests_renamePlaylist_playlistRenamed4" finished-at="2024-05-18T23:56:01 EDT" duration-ms="2997" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <i class="fa fa-plus-circle create"> is not clickable at point (233,321) because another element <div id="overlay" class="overlay loading"> obscures it
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [75410c91-d33a-4f19-82ec-1c1b54afc3e1, clickElement {id=8a1c2e33-80d6-49ec-823a-d30ca0a0d08e}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.2, moz:accessibilityChecks: false, moz:buildID: 20240419144423, moz:debuggerAddress: 127.0.0.1:11107, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 18188, moz:profile: C:\Users\acade\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:11107/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (75410c91-d33a-4f19-82ec-1c1b54afc3e1)] -> xpath: //*[@title='Create a new playlist']]
+Session ID: 75410c91-d33a-4f19-82ec-1c1b54afc3e1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <i class="fa fa-plus-circle create"> is not clickable at point (233,321) because another element <div id="overlay" class="overlay loading"> obscures it
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [75410c91-d33a-4f19-82ec-1c1b54afc3e1, clickElement {id=8a1c2e33-80d6-49ec-823a-d30ca0a0d08e}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.2, moz:accessibilityChecks: false, moz:buildID: 20240419144423, moz:debuggerAddress: 127.0.0.1:11107, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 18188, moz:profile: C:\Users\acade\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:11107/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (75410c91-d33a-4f19-82ec-1c1b54afc3e1)] -> xpath: //*[@title='Create a new playlist']]
+Session ID: 75410c91-d33a-4f19-82ec-1c1b54afc3e1
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at PageObjects.MainPage.createPlaylist(MainPage.java:49)
+at pageObjectsTests.PlaylistTest.playlistTests_renamePlaylist_playlistRenamed4(PlaylistTest.java:174)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playlistTests_renamePlaylist_playlistRenamed4 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:56:01 EDT" name="tearDown" finished-at="2024-05-18T23:56:05 EDT" duration-ms="4641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=playlistTests_renamePlaylist_playlistRenamed4 status=FAILURE method=PlaylistTest.playlistTests_renamePlaylist_playlistRenamed4()[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:56:05 EDT" name="starUp" finished-at="2024-05-18T23:56:08 EDT" duration-ms="2660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="playlistTests_createPlaylist_playlistCreated5()[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:56:08 EDT" name="playlistTests_createPlaylist_playlistCreated5" finished-at="2024-05-18T23:56:11 EDT" duration-ms="2796" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <i class="fa fa-plus-circle create"> is not clickable at point (233,321) because another element <div id="overlay" class="overlay loading"> obscures it
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [09088d17-8a8e-4e84-a554-56af19f38719, clickElement {id=40dc2d07-f5a0-46fb-a543-49e37158e430}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.2, moz:accessibilityChecks: false, moz:buildID: 20240419144423, moz:debuggerAddress: 127.0.0.1:19455, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 18444, moz:profile: C:\Users\acade\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:19455/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (09088d17-8a8e-4e84-a554-56af19f38719)] -> xpath: //*[@title='Create a new playlist']]
+Session ID: 09088d17-8a8e-4e84-a554-56af19f38719]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <i class="fa fa-plus-circle create"> is not clickable at point (233,321) because another element <div id="overlay" class="overlay loading"> obscures it
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [09088d17-8a8e-4e84-a554-56af19f38719, clickElement {id=40dc2d07-f5a0-46fb-a543-49e37158e430}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.2, moz:accessibilityChecks: false, moz:buildID: 20240419144423, moz:debuggerAddress: 127.0.0.1:19455, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 18444, moz:profile: C:\Users\acade\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:19455/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (09088d17-8a8e-4e84-a554-56af19f38719)] -> xpath: //*[@title='Create a new playlist']]
+Session ID: 09088d17-8a8e-4e84-a554-56af19f38719
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at PageObjects.MainPage.createPlaylist(MainPage.java:49)
+at pageObjectsTests.PlaylistTest.playlistTests_createPlaylist_playlistCreated5(PlaylistTest.java:191)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playlistTests_createPlaylist_playlistCreated5 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:56:11 EDT" name="tearDown" finished-at="2024-05-18T23:56:17 EDT" duration-ms="5678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=playlistTests_createPlaylist_playlistCreated5 status=FAILURE method=PlaylistTest.playlistTests_createPlaylist_playlistCreated5()[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:56:17 EDT" name="starUp" finished-at="2024-05-18T23:56:20 EDT" duration-ms="3077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[academic198405@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[te$s$tudent9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xxxxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="playlistTests_renamePlaylist_playlistRenamed5()[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:56:20 EDT" name="playlistTests_renamePlaylist_playlistRenamed5" finished-at="2024-05-18T23:56:23 EDT" duration-ms="3551" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <i class="fa fa-plus-circle create"> is not clickable at point (216,321) because another element <div id="overlay" class="overlay loading"> obscures it
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [498460df-0138-425a-abf4-f050a03dd001, clickElement {id=3940e50e-a8c5-4b16-abb5-4347fee6883b}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.2, moz:accessibilityChecks: false, moz:buildID: 20240419144423, moz:debuggerAddress: 127.0.0.1:6985, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 2360, moz:profile: C:\Users\acade\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:6985/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (498460df-0138-425a-abf4-f050a03dd001)] -> xpath: //*[@title='Create a new playlist']]
+Session ID: 498460df-0138-425a-abf4-f050a03dd001]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <i class="fa fa-plus-circle create"> is not clickable at point (216,321) because another element <div id="overlay" class="overlay loading"> obscures it
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [498460df-0138-425a-abf4-f050a03dd001, clickElement {id=3940e50e-a8c5-4b16-abb5-4347fee6883b}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.2, moz:accessibilityChecks: false, moz:buildID: 20240419144423, moz:debuggerAddress: 127.0.0.1:6985, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 2360, moz:profile: C:\Users\acade\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:6985/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (498460df-0138-425a-abf4-f050a03dd001)] -> xpath: //*[@title='Create a new playlist']]
+Session ID: 498460df-0138-425a-abf4-f050a03dd001
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at PageObjects.MainPage.createPlaylist(MainPage.java:49)
+at pageObjectsTests.PlaylistTest.playlistTests_renamePlaylist_playlistRenamed5(PlaylistTest.java:204)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playlistTests_renamePlaylist_playlistRenamed5 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2]" started-at="2024-05-18T23:56:23 EDT" name="tearDown" finished-at="2024-05-18T23:56:28 EDT" duration-ms="5154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=playlistTests_renamePlaylist_playlistRenamed5 status=FAILURE method=PlaylistTest.playlistTests_renamePlaylist_playlistRenamed5()[pri:0, instance:pageObjectsTests.PlaylistTest@34cdeda2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pageObjectsTests.PlaylistTest -->
+    </test> <!-- Main tests -->
+  </suite> <!-- Master Suite -->
+</testng-results>
