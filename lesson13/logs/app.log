@@ -13972,3 +13972,1036 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 2024-05-19 13:06:53,650 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-13] Encoding WebSocket Frame opCode=8 length=26
 2024-05-19 13:06:53,652 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-13] Decoding WebSocket Frame opCode=8
 2024-05-19 13:06:53,652 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-13] Decoding WebSocket Frame length=26
+2024-05-19 14:00:05,344 DEBUG l.l.l.l.l.InternalLoggerFactory [TestNG-test-Main tests-3] Using Log4J2 as the default logging framework
+2024-05-19 14:00:05,353 DEBUG l.l.l.ResourceLeakDetector [TestNG-test-Main tests-3] -Dio.netty.leakDetection.level: simple
+2024-05-19 14:00:05,354 DEBUG l.l.l.ResourceLeakDetector [TestNG-test-Main tests-3] -Dio.netty.leakDetection.targetRecords: 4
+2024-05-19 14:00:05,359 DEBUG l.l.l.ResourceLeakDetectorFactory [TestNG-test-Main tests-3] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@61344cd3
+2024-05-19 14:00:05,379 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-3] -Dio.netty.noUnsafe: false
+2024-05-19 14:00:05,379 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-3] Java version: 17
+2024-05-19 14:00:05,380 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-3] sun.misc.Unsafe.theUnsafe: available
+2024-05-19 14:00:05,381 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-3] sun.misc.Unsafe.copyMemory: available
+2024-05-19 14:00:05,382 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-3] sun.misc.Unsafe.storeFence: available
+2024-05-19 14:00:05,382 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-3] java.nio.Buffer.address: available
+2024-05-19 14:00:05,383 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-3] direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:288) ~[netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:282) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:114) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:251) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:224) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:203) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111) [async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90) [async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32) [async-http-client-2.12.3.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.createHttpClient(NettyClient.java:94) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:47) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:135) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:116) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:94) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:88) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver$FirefoxDriverCommandExecutor.<init>(FirefoxDriver.java:383) [selenium-firefox-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:142) [selenium-firefox-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:131) [selenium-firefox-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127) [selenium-firefox-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112) [selenium-firefox-driver-4.9.1.jar:?]
+	at helpers.BrowserFactory.getFirefoxDriver(BrowserFactory.java:43) [test-classes/:?]
+	at helpers.BrowserFactory.getDriver(BrowserFactory.java:19) [test-classes/:?]
+	at pageObjectsTests.BaseTest.starUp(BaseTest.java:24) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [testng-7.10.1.jar:7.10.1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.10.1.jar:7.10.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+2024-05-19 14:00:05,390 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-3] java.nio.Bits.unaligned: available, true
+2024-05-19 14:00:05,391 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-3] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @1af2d44a
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:410) ~[netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:401) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:114) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:251) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:224) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:203) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111) [async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90) [async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32) [async-http-client-2.12.3.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.createHttpClient(NettyClient.java:94) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:47) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:135) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:116) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:94) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:88) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver$FirefoxDriverCommandExecutor.<init>(FirefoxDriver.java:383) [selenium-firefox-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:142) [selenium-firefox-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:131) [selenium-firefox-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127) [selenium-firefox-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112) [selenium-firefox-driver-4.9.1.jar:?]
+	at helpers.BrowserFactory.getFirefoxDriver(BrowserFactory.java:43) [test-classes/:?]
+	at helpers.BrowserFactory.getDriver(BrowserFactory.java:19) [test-classes/:?]
+	at pageObjectsTests.BaseTest.starUp(BaseTest.java:24) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [testng-7.10.1.jar:7.10.1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.10.1.jar:7.10.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+2024-05-19 14:00:05,394 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-3] java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2024-05-19 14:00:05,394 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-3] sun.misc.Unsafe: available
+2024-05-19 14:00:05,395 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-3] maxDirectMemory: 17104371712 bytes (maybe)
+2024-05-19 14:00:05,395 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-3] -Dio.netty.tmpdir: C:\Users\acade\AppData\Local\Temp (java.io.tmpdir)
+2024-05-19 14:00:05,395 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-3] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-05-19 14:00:05,396 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-3] Platform: Windows
+2024-05-19 14:00:05,397 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-3] -Dio.netty.maxDirectMemory: -1 bytes
+2024-05-19 14:00:05,397 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-3] -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-05-19 14:00:05,398 DEBUG l.l.l.l.CleanerJava9 [TestNG-test-Main tests-3] java.nio.ByteBuffer.cleaner(): available
+2024-05-19 14:00:05,398 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-3] -Dio.netty.noPreferDirect: false
+2024-05-19 14:00:05,406 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-3] org.jctools-core.MpscChunkedArrayQueue: available
+2024-05-19 14:00:05,423 DEBUG l.l.l.l.InternalThreadLocalMap [TestNG-test-Main tests-3] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-05-19 14:00:05,424 DEBUG l.l.l.l.InternalThreadLocalMap [TestNG-test-Main tests-3] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-05-19 14:00:05,436 DEBUG l.l.l.l.JdkSslContext [TestNG-test-Main tests-3] Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2024-05-19 14:00:05,437 DEBUG l.l.l.l.JdkSslContext [TestNG-test-Main tests-3] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2024-05-19 14:00:05,448 DEBUG l.l.l.l.GlobalEventExecutor [TestNG-test-Main tests-3] -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2024-05-19 14:00:05,463 DEBUG l.l.l.MultithreadEventLoopGroup [TestNG-test-Main tests-3] -Dio.netty.eventLoopThreads: 16
+2024-05-19 14:00:05,474 DEBUG l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] -Dio.netty.noKeySetOptimization: false
+2024-05-19 14:00:05,474 DEBUG l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-05-19 14:00:05,491 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2ea0dc1d
+2024-05-19 14:00:05,493 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@40db150c
+2024-05-19 14:00:05,496 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@24727b3e
+2024-05-19 14:00:05,498 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6290466d
+2024-05-19 14:00:05,501 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4f42dee4
+2024-05-19 14:00:05,505 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5729d175
+2024-05-19 14:00:05,507 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@60b5fb25
+2024-05-19 14:00:05,509 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@f67a70
+2024-05-19 14:00:05,511 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@591a2174
+2024-05-19 14:00:05,513 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@40a1e15b
+2024-05-19 14:00:05,515 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@f0246b9
+2024-05-19 14:00:05,519 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3c1498d3
+2024-05-19 14:00:05,523 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@340d0fa4
+2024-05-19 14:00:05,525 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7b699b47
+2024-05-19 14:00:05,527 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@66433d1d
+2024-05-19 14:00:05,529 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7e09f306
+2024-05-19 14:00:05,553 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-3] -Dio.netty.allocator.numHeapArenas: 16
+2024-05-19 14:00:05,553 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-3] -Dio.netty.allocator.numDirectArenas: 16
+2024-05-19 14:00:05,553 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-3] -Dio.netty.allocator.pageSize: 8192
+2024-05-19 14:00:05,553 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-3] -Dio.netty.allocator.maxOrder: 9
+2024-05-19 14:00:05,553 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-3] -Dio.netty.allocator.chunkSize: 4194304
+2024-05-19 14:00:05,553 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-3] -Dio.netty.allocator.smallCacheSize: 256
+2024-05-19 14:00:05,553 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-3] -Dio.netty.allocator.normalCacheSize: 64
+2024-05-19 14:00:05,554 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-3] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-05-19 14:00:05,554 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-3] -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-05-19 14:00:05,554 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-3] -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-05-19 14:00:05,554 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-3] -Dio.netty.allocator.useCacheForAllThreads: false
+2024-05-19 14:00:05,554 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-3] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-05-19 14:00:05,565 DEBUG l.l.l.ByteBufUtil [TestNG-test-Main tests-3] -Dio.netty.allocator.type: pooled
+2024-05-19 14:00:05,565 DEBUG l.l.l.ByteBufUtil [TestNG-test-Main tests-3] -Dio.netty.threadLocalDirectBufferSize: 0
+2024-05-19 14:00:05,566 DEBUG l.l.l.ByteBufUtil [TestNG-test-Main tests-3] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-05-19 14:00:05,930 DEBUG l.l.l.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.processId: 12064 (auto-detected)
+2024-05-19 14:00:05,934 DEBUG l.l.l.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv4Stack: false
+2024-05-19 14:00:05,934 DEBUG l.l.l.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv6Addresses: false
+2024-05-19 14:00:05,957 DEBUG l.l.l.NetUtilInitializations [Forwarding newSession on session null to remote] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-05-19 14:00:05,959 DEBUG l.l.l.NetUtil [Forwarding newSession on session null to remote] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-05-19 14:00:05,994 DEBUG l.l.l.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.machineId: 5c:3a:45:ff:fe:37:a7:5d (auto-detected)
+2024-05-19 14:00:06,045 DEBUG l.l.l.AbstractByteBuf [AsyncHttpClient-1-4] -Dio.netty.buffer.checkAccessible: true
+2024-05-19 14:00:06,046 DEBUG l.l.l.AbstractByteBuf [AsyncHttpClient-1-4] -Dio.netty.buffer.checkBounds: true
+2024-05-19 14:00:06,046 DEBUG l.l.l.ResourceLeakDetectorFactory [AsyncHttpClient-1-4] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@141ff5b2
+2024-05-19 14:00:06,088 DEBUG l.l.l.Recycler [AsyncHttpClient-1-3] -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-05-19 14:00:06,089 DEBUG l.l.l.Recycler [AsyncHttpClient-1-3] -Dio.netty.recycler.ratio: 8
+2024-05-19 14:00:06,089 DEBUG l.l.l.Recycler [AsyncHttpClient-1-3] -Dio.netty.recycler.chunkSize: 32
+2024-05-19 14:00:06,089 DEBUG l.l.l.Recycler [AsyncHttpClient-1-3] -Dio.netty.recycler.blocking: false
+2024-05-19 14:00:06,089 DEBUG l.l.l.Recycler [AsyncHttpClient-1-3] -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2024-05-19 14:00:09,199 DEBUG l.l.l.l.l.Brotli [AsyncHttpClient-1-4] brotli4j not in the classpath; Brotli support will be unavailable.
+2024-05-19 14:00:09,554 INFO l.Listeners [TestNG-test-Main tests-2] flakyTest started=========================
+2024-05-19 14:00:09,554 INFO l.Listeners [TestNG-test-Main tests-1] loginToApp_correctCredentials_successfulLogin2 started=========================
+2024-05-19 14:00:09,623 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_createPlaylist_playlistCreated started=========================
+2024-05-19 14:00:12,243 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> Doris Schutt
+2024-05-19 14:00:12,607 DEBUG l.l.l.l.ThreadLocalRandom [TestNG-test-Main tests-2] -Dio.netty.initialSeedUniquifier: 0x0696ae2956e28d7a
+2024-05-19 14:00:12,677 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-8] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:00:12,681 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-8] Decoding WebSocket Frame opCode=8
+2024-05-19 14:00:12,682 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-8] Decoding WebSocket Frame length=26
+2024-05-19 14:00:15,379 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-10] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:00:15,382 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-10] Decoding WebSocket Frame opCode=8
+2024-05-19 14:00:15,382 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-10] Decoding WebSocket Frame length=26
+2024-05-19 14:00:17,093 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-11] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:00:17,095 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-11] Decoding WebSocket Frame opCode=8
+2024-05-19 14:00:17,095 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-11] Decoding WebSocket Frame length=26
+2024-05-19 14:00:17,638 INFO l.Listeners [TestNG-test-Main tests-2] flakyTest started=========================
+2024-05-19 14:00:20,689 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-15] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:00:20,691 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-15] Decoding WebSocket Frame opCode=8
+2024-05-19 14:00:20,691 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-15] Decoding WebSocket Frame length=26
+2024-05-19 14:00:21,003 INFO l.Listeners [TestNG-test-Main tests-1] loginToApp_incorrectCredentials_failedLogin2 started=========================
+2024-05-19 14:00:23,642 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_renamePlaylist_playlistRenamed started=========================
+2024-05-19 14:00:26,071 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> Dennis Toffice
+2024-05-19 14:00:26,540 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-2] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:00:26,542 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-2] Decoding WebSocket Frame opCode=8
+2024-05-19 14:00:26,542 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-2] Decoding WebSocket Frame length=26
+2024-05-19 14:00:26,899 INFO l.Listeners [TestNG-test-Main tests-2] flakyTest started=========================
+2024-05-19 14:00:29,919 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-6] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:00:29,921 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-6] Decoding WebSocket Frame opCode=8
+2024-05-19 14:00:29,921 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-6] Decoding WebSocket Frame length=26
+2024-05-19 14:00:31,793 INFO l.Listeners [TestNG-test-Main tests-1] loginToApp_correctCredentials_successfulLogin3 started=========================
+2024-05-19 14:00:36,518 INFO l.Listeners [TestNG-test-Main tests-2] flakyTest started=========================
+2024-05-19 14:00:37,647 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-10] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:00:37,648 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-10] Decoding WebSocket Frame opCode=8
+2024-05-19 14:00:37,648 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-10] Decoding WebSocket Frame length=26
+2024-05-19 14:00:39,546 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-12] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:00:39,550 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-12] Decoding WebSocket Frame opCode=8
+2024-05-19 14:00:39,550 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-12] Decoding WebSocket Frame length=26
+2024-05-19 14:00:42,459 INFO l.Listeners [TestNG-test-Main tests-1] loginToApp_incorrectCredentials_failedLogin3 started=========================
+2024-05-19 14:00:44,259 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-15] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:00:44,261 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-15] Decoding WebSocket Frame opCode=8
+2024-05-19 14:00:44,261 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-15] Decoding WebSocket Frame length=26
+2024-05-19 14:00:44,678 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_correctCredentials_successfulLogin started=========================
+2024-05-19 14:00:47,894 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-4] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:00:47,895 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-4] Decoding WebSocket Frame opCode=8
+2024-05-19 14:00:47,896 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-4] Decoding WebSocket Frame length=26
+2024-05-19 14:00:50,497 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-2] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:00:50,499 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-2] Decoding WebSocket Frame opCode=8
+2024-05-19 14:00:50,499 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-2] Decoding WebSocket Frame length=26
+2024-05-19 14:00:50,537 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_createPlaylist_playlistCreated1 started=========================
+2024-05-19 14:00:52,977 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> giTgXHA
+2024-05-19 14:00:55,256 INFO l.Listeners [TestNG-test-Main tests-1] loginToApp_correctCredentials_successfulLogin4 started=========================
+2024-05-19 14:00:58,275 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_incorrectCredentials_failedLogin started=========================
+2024-05-19 14:01:00,891 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-9] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:01:00,892 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-9] Decoding WebSocket Frame opCode=8
+2024-05-19 14:01:00,892 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-9] Decoding WebSocket Frame length=26
+2024-05-19 14:01:01,739 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-10] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:01:01,742 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-10] Decoding WebSocket Frame opCode=8
+2024-05-19 14:01:01,742 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-10] Decoding WebSocket Frame length=26
+2024-05-19 14:01:03,824 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-13] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:01:03,825 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-13] Decoding WebSocket Frame opCode=8
+2024-05-19 14:01:03,826 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-13] Decoding WebSocket Frame length=26
+2024-05-19 14:01:05,819 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_renamePlaylist_playlistRenamed1 started=========================
+2024-05-19 14:01:07,616 INFO l.Listeners [TestNG-test-Main tests-1] loginToApp_incorrectCredentials_failedLogin4 started=========================
+2024-05-19 14:01:08,322 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> Sue Flay
+2024-05-19 14:01:10,985 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_correctCredentials_successfulLogin1 started=========================
+2024-05-19 14:01:12,323 FATAL l.MainPage [TestNG-test-Main tests-3] Updating playlist id 95308
+2024-05-19 14:01:12,323 FATAL l.MainPage [TestNG-test-Main tests-3] New playlist name = Gauguin
+2024-05-19 14:01:13,244 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-4] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:01:13,246 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-4] Decoding WebSocket Frame opCode=8
+2024-05-19 14:01:13,246 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-4] Decoding WebSocket Frame length=26
+2024-05-19 14:01:16,226 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-3] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:01:16,228 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-3] Decoding WebSocket Frame opCode=8
+2024-05-19 14:01:16,228 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-3] Decoding WebSocket Frame length=26
+2024-05-19 14:01:16,933 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-5] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:01:16,935 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-5] Decoding WebSocket Frame opCode=8
+2024-05-19 14:01:16,935 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-5] Decoding WebSocket Frame length=26
+2024-05-19 14:01:18,830 INFO l.Listeners [TestNG-test-Main tests-1] loginToApp_correctCredentials_successfulLogin5 started=========================
+2024-05-19 14:01:23,630 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_createPlaylist_playlistCreated2 started=========================
+2024-05-19 14:01:25,480 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-10] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:01:25,483 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-10] Decoding WebSocket Frame opCode=8
+2024-05-19 14:01:25,483 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-10] Decoding WebSocket Frame length=26
+2024-05-19 14:01:25,730 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_incorrectCredentials_failedLogin1 started=========================
+2024-05-19 14:01:26,300 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> KGFghPL
+2024-05-19 14:01:31,599 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-13] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:01:31,603 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-13] Decoding WebSocket Frame opCode=8
+2024-05-19 14:01:31,604 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-13] Decoding WebSocket Frame length=26
+2024-05-19 14:01:32,316 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-14] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:01:32,317 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-14] Decoding WebSocket Frame opCode=8
+2024-05-19 14:01:32,318 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-14] Decoding WebSocket Frame length=26
+2024-05-19 14:01:33,096 INFO l.Listeners [TestNG-test-Main tests-1] loginToApp_incorrectCredentials_failedLogin5 started=========================
+2024-05-19 14:01:38,636 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-4] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:01:38,637 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-4] Decoding WebSocket Frame opCode=8
+2024-05-19 14:01:38,638 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-4] Decoding WebSocket Frame length=26
+2024-05-19 14:01:39,242 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_correctCredentials_successfulLogin2 started=========================
+2024-05-19 14:01:40,030 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_renamePlaylist_playlistRenamed2 started=========================
+2024-05-19 14:01:42,478 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> Willie Maykit
+2024-05-19 14:01:45,189 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-5] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:01:45,191 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-5] Decoding WebSocket Frame opCode=8
+2024-05-19 14:01:45,191 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-5] Decoding WebSocket Frame length=26
+2024-05-19 14:01:46,086 FATAL l.MainPage [TestNG-test-Main tests-3] Updating playlist id 95309
+2024-05-19 14:01:46,086 FATAL l.MainPage [TestNG-test-Main tests-3] New playlist name = Monet
+2024-05-19 14:01:49,210 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_incorrectCredentials_failedLogin2 started=========================
+2024-05-19 14:01:49,845 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-8] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:01:49,848 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-8] Decoding WebSocket Frame opCode=8
+2024-05-19 14:01:49,848 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-8] Decoding WebSocket Frame length=26
+2024-05-19 14:01:53,505 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_createPlaylist_playlistCreated3 started=========================
+2024-05-19 14:01:54,438 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-11] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:01:54,439 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-11] Decoding WebSocket Frame opCode=8
+2024-05-19 14:01:54,439 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-11] Decoding WebSocket Frame length=26
+2024-05-19 14:01:55,674 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> wSlGUsv
+2024-05-19 14:02:00,195 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_correctCredentials_successfulLogin3 started=========================
+2024-05-19 14:02:02,742 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-14] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:02:02,743 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-14] Decoding WebSocket Frame opCode=8
+2024-05-19 14:02:02,744 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-14] Decoding WebSocket Frame length=26
+2024-05-19 14:02:06,291 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-16] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:02:06,293 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-16] Decoding WebSocket Frame opCode=8
+2024-05-19 14:02:06,293 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-16] Decoding WebSocket Frame length=26
+2024-05-19 14:02:07,871 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_renamePlaylist_playlistRenamed3 started=========================
+2024-05-19 14:02:10,027 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> Braxton Hicks
+2024-05-19 14:02:11,838 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_incorrectCredentials_failedLogin3 started=========================
+2024-05-19 14:02:13,177 FATAL l.MainPage [TestNG-test-Main tests-3] Updating playlist id 95311
+2024-05-19 14:02:13,177 FATAL l.MainPage [TestNG-test-Main tests-3] New playlist name = Botticelli
+2024-05-19 14:02:17,029 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-3] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:02:17,031 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-3] Decoding WebSocket Frame opCode=8
+2024-05-19 14:02:17,032 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-3] Decoding WebSocket Frame length=26
+2024-05-19 14:02:17,156 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-5] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:02:17,158 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-5] Decoding WebSocket Frame opCode=8
+2024-05-19 14:02:17,158 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-5] Decoding WebSocket Frame length=26
+2024-05-19 14:02:22,824 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_createPlaylist_playlistCreated4 started=========================
+2024-05-19 14:02:22,864 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_correctCredentials_successfulLogin4 started=========================
+2024-05-19 14:02:25,224 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> wvRnnre
+2024-05-19 14:02:28,908 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-10] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:02:28,910 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-10] Decoding WebSocket Frame opCode=8
+2024-05-19 14:02:28,910 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-10] Decoding WebSocket Frame length=26
+2024-05-19 14:02:32,211 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-12] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:02:32,214 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-12] Decoding WebSocket Frame opCode=8
+2024-05-19 14:02:32,214 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-12] Decoding WebSocket Frame length=26
+2024-05-19 14:02:34,714 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_incorrectCredentials_failedLogin4 started=========================
+2024-05-19 14:02:37,830 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_renamePlaylist_playlistRenamed4 started=========================
+2024-05-19 14:02:39,990 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> Penny Bunn
+2024-05-19 14:02:40,417 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-16] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:02:40,420 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-16] Decoding WebSocket Frame opCode=8
+2024-05-19 14:02:40,420 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-16] Decoding WebSocket Frame length=26
+2024-05-19 14:02:43,438 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-4] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:02:43,439 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-4] Decoding WebSocket Frame opCode=8
+2024-05-19 14:02:43,440 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-4] Decoding WebSocket Frame length=26
+2024-05-19 14:02:48,999 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_correctCredentials_successfulLogin5 started=========================
+2024-05-19 14:02:50,909 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_createPlaylist_playlistCreated5 started=========================
+2024-05-19 14:02:53,240 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> ruPfmdk
+2024-05-19 14:02:54,824 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-6] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:02:54,826 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-6] Decoding WebSocket Frame opCode=8
+2024-05-19 14:02:54,826 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-6] Decoding WebSocket Frame length=26
+2024-05-19 14:02:56,691 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-8] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:02:56,693 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-8] Decoding WebSocket Frame opCode=8
+2024-05-19 14:02:56,693 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-8] Decoding WebSocket Frame length=26
+2024-05-19 14:02:59,080 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_incorrectCredentials_failedLogin5 started=========================
+2024-05-19 14:03:02,568 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_renamePlaylist_playlistRenamed5 started=========================
+2024-05-19 14:03:04,565 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-12] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:03:04,568 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-12] Decoding WebSocket Frame opCode=8
+2024-05-19 14:03:04,568 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-12] Decoding WebSocket Frame length=26
+2024-05-19 14:03:04,731 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> Nick L. Andime
+2024-05-19 14:03:08,586 FATAL l.MainPage [TestNG-test-Main tests-3] Updating playlist id 95313
+2024-05-19 14:03:08,586 FATAL l.MainPage [TestNG-test-Main tests-3] New playlist name = Cezanne
+2024-05-19 14:03:12,396 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-13] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:03:12,398 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-13] Decoding WebSocket Frame opCode=8
+2024-05-19 14:03:12,398 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-13] Decoding WebSocket Frame length=26
+2024-05-19 14:03:17,556 DEBUG l.l.l.l.l.InternalLoggerFactory [TestNG-test-Main tests-3] Using Log4J2 as the default logging framework
+2024-05-19 14:03:17,581 DEBUG l.l.l.ResourceLeakDetector [TestNG-test-Main tests-3] -Dio.netty.leakDetection.level: simple
+2024-05-19 14:03:17,581 DEBUG l.l.l.ResourceLeakDetector [TestNG-test-Main tests-3] -Dio.netty.leakDetection.targetRecords: 4
+2024-05-19 14:03:17,597 DEBUG l.l.l.ResourceLeakDetectorFactory [TestNG-test-Main tests-3] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6ae4775d
+2024-05-19 14:03:17,642 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-3] -Dio.netty.noUnsafe: false
+2024-05-19 14:03:17,642 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-3] Java version: 17
+2024-05-19 14:03:17,645 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-3] sun.misc.Unsafe.theUnsafe: available
+2024-05-19 14:03:17,646 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-3] sun.misc.Unsafe.copyMemory: available
+2024-05-19 14:03:17,647 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-3] sun.misc.Unsafe.storeFence: available
+2024-05-19 14:03:17,649 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-3] java.nio.Buffer.address: available
+2024-05-19 14:03:17,650 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-3] direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:288) ~[netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:282) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:114) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:251) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:224) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:203) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111) [async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90) [async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32) [async-http-client-2.12.3.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.createHttpClient(NettyClient.java:94) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:47) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:135) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:116) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:94) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:88) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver$FirefoxDriverCommandExecutor.<init>(FirefoxDriver.java:383) [selenium-firefox-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:142) [selenium-firefox-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:131) [selenium-firefox-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127) [selenium-firefox-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112) [selenium-firefox-driver-4.9.1.jar:?]
+	at helpers.BrowserFactory.getFirefoxDriver(BrowserFactory.java:43) [test-classes/:?]
+	at helpers.BrowserFactory.getDriver(BrowserFactory.java:19) [test-classes/:?]
+	at pageObjectsTests.BaseTest.starUp(BaseTest.java:24) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [testng-7.10.1.jar:7.10.1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.10.1.jar:7.10.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+2024-05-19 14:03:17,665 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-3] java.nio.Bits.unaligned: available, true
+2024-05-19 14:03:17,668 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-3] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @1af2d44a
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:410) ~[netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:401) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:114) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:251) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:224) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:203) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111) [async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90) [async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32) [async-http-client-2.12.3.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.createHttpClient(NettyClient.java:94) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:47) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:135) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:116) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:94) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:88) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver$FirefoxDriverCommandExecutor.<init>(FirefoxDriver.java:383) [selenium-firefox-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:142) [selenium-firefox-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:131) [selenium-firefox-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127) [selenium-firefox-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112) [selenium-firefox-driver-4.9.1.jar:?]
+	at helpers.BrowserFactory.getFirefoxDriver(BrowserFactory.java:43) [test-classes/:?]
+	at helpers.BrowserFactory.getDriver(BrowserFactory.java:19) [test-classes/:?]
+	at pageObjectsTests.BaseTest.starUp(BaseTest.java:24) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [testng-7.10.1.jar:7.10.1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.10.1.jar:7.10.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+2024-05-19 14:03:17,673 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-3] java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2024-05-19 14:03:17,674 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-3] sun.misc.Unsafe: available
+2024-05-19 14:03:17,675 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-3] maxDirectMemory: 17104371712 bytes (maybe)
+2024-05-19 14:03:17,676 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-3] -Dio.netty.tmpdir: C:\Users\acade\AppData\Local\Temp (java.io.tmpdir)
+2024-05-19 14:03:17,676 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-3] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-05-19 14:03:17,677 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-3] Platform: Windows
+2024-05-19 14:03:17,678 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-3] -Dio.netty.maxDirectMemory: -1 bytes
+2024-05-19 14:03:17,679 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-3] -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-05-19 14:03:17,682 DEBUG l.l.l.l.CleanerJava9 [TestNG-test-Main tests-3] java.nio.ByteBuffer.cleaner(): available
+2024-05-19 14:03:17,683 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-3] -Dio.netty.noPreferDirect: false
+2024-05-19 14:03:17,705 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-3] org.jctools-core.MpscChunkedArrayQueue: available
+2024-05-19 14:03:17,755 DEBUG l.l.l.l.InternalThreadLocalMap [TestNG-test-Main tests-3] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-05-19 14:03:17,755 DEBUG l.l.l.l.InternalThreadLocalMap [TestNG-test-Main tests-3] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-05-19 14:03:17,856 DEBUG l.l.l.l.JdkSslContext [TestNG-test-Main tests-3] Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2024-05-19 14:03:17,856 DEBUG l.l.l.l.JdkSslContext [TestNG-test-Main tests-3] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2024-05-19 14:03:17,875 DEBUG l.l.l.l.GlobalEventExecutor [TestNG-test-Main tests-3] -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2024-05-19 14:03:17,891 DEBUG l.l.l.MultithreadEventLoopGroup [TestNG-test-Main tests-3] -Dio.netty.eventLoopThreads: 16
+2024-05-19 14:03:17,904 DEBUG l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] -Dio.netty.noKeySetOptimization: false
+2024-05-19 14:03:17,905 DEBUG l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-05-19 14:03:17,921 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1da8951e
+2024-05-19 14:03:17,924 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@30f71a6f
+2024-05-19 14:03:17,927 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@449b9bdc
+2024-05-19 14:03:17,930 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@581bb10
+2024-05-19 14:03:17,932 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@562a47cb
+2024-05-19 14:03:17,934 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5e860b03
+2024-05-19 14:03:17,936 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@465b2e74
+2024-05-19 14:03:17,938 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4e0a4494
+2024-05-19 14:03:17,940 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4a1a4681
+2024-05-19 14:03:17,942 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@242a82d2
+2024-05-19 14:03:17,945 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3b9d30ad
+2024-05-19 14:03:17,948 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@27affdae
+2024-05-19 14:03:17,950 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3f199994
+2024-05-19 14:03:17,952 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4fd5a0b7
+2024-05-19 14:03:17,955 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1d1fe9b8
+2024-05-19 14:03:17,957 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-3] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@45053538
+2024-05-19 14:03:17,980 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-3] -Dio.netty.allocator.numHeapArenas: 16
+2024-05-19 14:03:17,980 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-3] -Dio.netty.allocator.numDirectArenas: 16
+2024-05-19 14:03:17,980 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-3] -Dio.netty.allocator.pageSize: 8192
+2024-05-19 14:03:17,980 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-3] -Dio.netty.allocator.maxOrder: 9
+2024-05-19 14:03:17,980 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-3] -Dio.netty.allocator.chunkSize: 4194304
+2024-05-19 14:03:17,981 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-3] -Dio.netty.allocator.smallCacheSize: 256
+2024-05-19 14:03:17,981 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-3] -Dio.netty.allocator.normalCacheSize: 64
+2024-05-19 14:03:17,981 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-3] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-05-19 14:03:17,981 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-3] -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-05-19 14:03:17,981 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-3] -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-05-19 14:03:17,981 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-3] -Dio.netty.allocator.useCacheForAllThreads: false
+2024-05-19 14:03:17,981 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-3] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-05-19 14:03:17,995 DEBUG l.l.l.ByteBufUtil [TestNG-test-Main tests-3] -Dio.netty.allocator.type: pooled
+2024-05-19 14:03:17,996 DEBUG l.l.l.ByteBufUtil [TestNG-test-Main tests-3] -Dio.netty.threadLocalDirectBufferSize: 0
+2024-05-19 14:03:17,996 DEBUG l.l.l.ByteBufUtil [TestNG-test-Main tests-3] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-05-19 14:03:18,378 DEBUG l.l.l.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.processId: 9584 (auto-detected)
+2024-05-19 14:03:18,381 DEBUG l.l.l.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv4Stack: false
+2024-05-19 14:03:18,381 DEBUG l.l.l.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv6Addresses: false
+2024-05-19 14:03:18,406 DEBUG l.l.l.NetUtilInitializations [Forwarding newSession on session null to remote] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-05-19 14:03:18,408 DEBUG l.l.l.NetUtil [Forwarding newSession on session null to remote] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-05-19 14:03:18,455 DEBUG l.l.l.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.machineId: 5c:3a:45:ff:fe:37:a7:5d (auto-detected)
+2024-05-19 14:03:18,513 DEBUG l.l.l.AbstractByteBuf [AsyncHttpClient-1-3] -Dio.netty.buffer.checkAccessible: true
+2024-05-19 14:03:18,513 DEBUG l.l.l.AbstractByteBuf [AsyncHttpClient-1-3] -Dio.netty.buffer.checkBounds: true
+2024-05-19 14:03:18,513 DEBUG l.l.l.ResourceLeakDetectorFactory [AsyncHttpClient-1-3] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2d854a4
+2024-05-19 14:03:18,543 DEBUG l.l.l.Recycler [AsyncHttpClient-1-3] -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-05-19 14:03:18,543 DEBUG l.l.l.Recycler [AsyncHttpClient-1-3] -Dio.netty.recycler.ratio: 8
+2024-05-19 14:03:18,543 DEBUG l.l.l.Recycler [AsyncHttpClient-1-3] -Dio.netty.recycler.chunkSize: 32
+2024-05-19 14:03:18,544 DEBUG l.l.l.Recycler [AsyncHttpClient-1-3] -Dio.netty.recycler.blocking: false
+2024-05-19 14:03:18,544 DEBUG l.l.l.Recycler [AsyncHttpClient-1-3] -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2024-05-19 14:03:22,301 DEBUG l.l.l.l.l.Brotli [AsyncHttpClient-1-4] brotli4j not in the classpath; Brotli support will be unavailable.
+2024-05-19 14:03:22,618 INFO l.Listeners [TestNG-test-Main tests-2] flakyTest started=========================
+2024-05-19 14:03:22,625 INFO l.Listeners [TestNG-test-Main tests-1] loginToApp_correctCredentials_successfulLogin2 started=========================
+2024-05-19 14:03:22,627 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_createPlaylist_playlistCreated started=========================
+2024-05-19 14:03:25,155 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> Zeke N. Yeshallfind
+2024-05-19 14:03:25,733 DEBUG l.l.l.l.ThreadLocalRandom [TestNG-test-Main tests-2] -Dio.netty.initialSeedUniquifier: 0xb57d3a88ec1a60ac
+2024-05-19 14:03:25,821 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-8] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:03:26,775 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-8] Decoding WebSocket Frame opCode=8
+2024-05-19 14:03:26,776 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-8] Decoding WebSocket Frame length=26
+2024-05-19 14:03:29,239 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-10] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:03:29,241 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-10] Decoding WebSocket Frame opCode=8
+2024-05-19 14:03:29,241 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-10] Decoding WebSocket Frame length=26
+2024-05-19 14:03:30,068 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-11] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:03:30,070 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-11] Decoding WebSocket Frame opCode=8
+2024-05-19 14:03:30,070 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-11] Decoding WebSocket Frame length=26
+2024-05-19 14:03:30,207 INFO l.Listeners [TestNG-test-Main tests-2] flakyTest started=========================
+2024-05-19 14:03:33,239 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-15] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:03:33,242 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-15] Decoding WebSocket Frame opCode=8
+2024-05-19 14:03:33,242 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-15] Decoding WebSocket Frame length=26
+2024-05-19 14:03:34,684 INFO l.Listeners [TestNG-test-Main tests-1] loginToApp_incorrectCredentials_failedLogin2 started=========================
+2024-05-19 14:03:35,360 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_renamePlaylist_playlistRenamed started=========================
+2024-05-19 14:03:37,510 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> Kurt Remarque
+2024-05-19 14:03:38,892 INFO l.Listeners [TestNG-test-Main tests-2] flakyTest started=========================
+2024-05-19 14:03:39,766 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-3] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:03:39,768 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-3] Decoding WebSocket Frame opCode=8
+2024-05-19 14:03:39,768 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-3] Decoding WebSocket Frame length=26
+2024-05-19 14:03:41,914 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-6] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:03:41,915 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-6] Decoding WebSocket Frame opCode=8
+2024-05-19 14:03:41,915 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-6] Decoding WebSocket Frame length=26
+2024-05-19 14:03:43,299 INFO l.Listeners [TestNG-test-Main tests-1] loginToApp_correctCredentials_successfulLogin3 started=========================
+2024-05-19 14:03:46,681 INFO l.Listeners [TestNG-test-Main tests-2] flakyTest started=========================
+2024-05-19 14:03:48,524 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-10] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:03:48,527 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-10] Decoding WebSocket Frame opCode=8
+2024-05-19 14:03:48,527 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-10] Decoding WebSocket Frame length=26
+2024-05-19 14:03:49,705 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-12] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:03:49,706 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-12] Decoding WebSocket Frame opCode=8
+2024-05-19 14:03:49,707 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-12] Decoding WebSocket Frame length=26
+2024-05-19 14:03:52,204 INFO l.Listeners [TestNG-test-Main tests-1] loginToApp_incorrectCredentials_failedLogin3 started=========================
+2024-05-19 14:03:53,938 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_correctCredentials_successfulLogin started=========================
+2024-05-19 14:03:55,639 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-16] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:03:55,640 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-16] Decoding WebSocket Frame opCode=8
+2024-05-19 14:03:55,640 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-16] Decoding WebSocket Frame length=26
+2024-05-19 14:03:57,185 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-17] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:03:57,186 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-17] Decoding WebSocket Frame opCode=8
+2024-05-19 14:03:57,187 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-17] Decoding WebSocket Frame length=26
+2024-05-19 14:03:59,089 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-3] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:03:59,090 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-3] Decoding WebSocket Frame opCode=8
+2024-05-19 14:03:59,090 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-3] Decoding WebSocket Frame length=26
+2024-05-19 14:04:00,202 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_createPlaylist_playlistCreated1 started=========================
+2024-05-19 14:04:02,421 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> EaxgJZy
+2024-05-19 14:04:02,473 INFO l.Listeners [TestNG-test-Main tests-1] loginToApp_correctCredentials_successfulLogin4 started=========================
+2024-05-19 14:04:05,973 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_incorrectCredentials_failedLogin started=========================
+2024-05-19 14:04:06,194 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-9] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:04:06,196 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-9] Decoding WebSocket Frame opCode=8
+2024-05-19 14:04:06,196 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-9] Decoding WebSocket Frame length=26
+2024-05-19 14:04:08,241 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-11] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:04:08,243 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-11] Decoding WebSocket Frame opCode=8
+2024-05-19 14:04:08,243 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-11] Decoding WebSocket Frame length=26
+2024-05-19 14:04:10,969 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_renamePlaylist_playlistRenamed1 started=========================
+2024-05-19 14:04:10,970 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-13] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:04:10,972 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-13] Decoding WebSocket Frame opCode=8
+2024-05-19 14:04:10,972 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-13] Decoding WebSocket Frame length=26
+2024-05-19 14:04:13,025 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> May Day
+2024-05-19 14:04:13,896 INFO l.Listeners [TestNG-test-Main tests-1] loginToApp_incorrectCredentials_failedLogin4 started=========================
+2024-05-19 14:04:16,637 FATAL l.MainPage [TestNG-test-Main tests-3] Updating playlist id 95314
+2024-05-19 14:04:16,638 FATAL l.MainPage [TestNG-test-Main tests-3] New playlist name = Raphael
+2024-05-19 14:04:17,460 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_correctCredentials_successfulLogin1 started=========================
+2024-05-19 14:04:18,980 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-2] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:04:18,981 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-2] Decoding WebSocket Frame opCode=8
+2024-05-19 14:04:18,981 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-2] Decoding WebSocket Frame length=26
+2024-05-19 14:04:20,563 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-4] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:04:20,564 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-4] Decoding WebSocket Frame opCode=8
+2024-05-19 14:04:20,564 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-4] Decoding WebSocket Frame length=26
+2024-05-19 14:04:22,579 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-6] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:04:22,580 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-6] Decoding WebSocket Frame opCode=8
+2024-05-19 14:04:22,581 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-6] Decoding WebSocket Frame length=26
+2024-05-19 14:04:23,983 INFO l.Listeners [TestNG-test-Main tests-1] loginToApp_correctCredentials_successfulLogin5 started=========================
+2024-05-19 14:04:26,228 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_createPlaylist_playlistCreated2 started=========================
+2024-05-19 14:04:28,325 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> XXBsKEb
+2024-05-19 14:04:29,442 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_incorrectCredentials_failedLogin1 started=========================
+2024-05-19 14:04:29,525 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-11] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:04:29,527 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-11] Decoding WebSocket Frame opCode=8
+2024-05-19 14:04:29,527 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-11] Decoding WebSocket Frame length=26
+2024-05-19 14:04:34,692 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-13] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:04:34,694 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-13] Decoding WebSocket Frame opCode=8
+2024-05-19 14:04:34,694 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-13] Decoding WebSocket Frame length=26
+2024-05-19 14:04:35,046 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-14] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:04:35,047 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-14] Decoding WebSocket Frame opCode=8
+2024-05-19 14:04:35,048 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-14] Decoding WebSocket Frame length=26
+2024-05-19 14:04:35,787 INFO l.Listeners [TestNG-test-Main tests-1] loginToApp_incorrectCredentials_failedLogin5 started=========================
+2024-05-19 14:04:40,208 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_correctCredentials_successfulLogin2 started=========================
+2024-05-19 14:04:40,618 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_renamePlaylist_playlistRenamed2 started=========================
+2024-05-19 14:04:40,852 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-3] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:04:40,853 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-3] Decoding WebSocket Frame opCode=8
+2024-05-19 14:04:40,854 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-3] Decoding WebSocket Frame length=26
+2024-05-19 14:04:42,826 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> Mel Function
+2024-05-19 14:04:45,991 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-5] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:04:45,992 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-5] Decoding WebSocket Frame opCode=8
+2024-05-19 14:04:45,993 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-5] Decoding WebSocket Frame length=26
+2024-05-19 14:04:47,291 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-6] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:04:47,295 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-6] Decoding WebSocket Frame opCode=8
+2024-05-19 14:04:47,295 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-6] Decoding WebSocket Frame length=26
+2024-05-19 14:04:49,646 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_incorrectCredentials_failedLogin2 started=========================
+2024-05-19 14:04:51,519 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_createPlaylist_playlistCreated3 started=========================
+2024-05-19 14:04:53,232 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> TIVZkaa
+2024-05-19 14:04:54,531 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-11] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:04:54,533 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-11] Decoding WebSocket Frame opCode=8
+2024-05-19 14:04:54,533 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-11] Decoding WebSocket Frame length=26
+2024-05-19 14:04:56,603 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-13] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:04:56,605 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-13] Decoding WebSocket Frame opCode=8
+2024-05-19 14:04:56,605 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-13] Decoding WebSocket Frame length=26
+2024-05-19 14:04:58,206 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_correctCredentials_successfulLogin3 started=========================
+2024-05-19 14:05:02,250 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_renamePlaylist_playlistRenamed3 started=========================
+2024-05-19 14:05:03,547 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-17] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:05:03,548 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-17] Decoding WebSocket Frame opCode=8
+2024-05-19 14:05:03,548 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-17] Decoding WebSocket Frame length=26
+2024-05-19 14:05:04,446 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> Penny Nichols
+2024-05-19 14:05:07,224 FATAL l.MainPage [TestNG-test-Main tests-3] Updating playlist id 95316
+2024-05-19 14:05:07,224 FATAL l.MainPage [TestNG-test-Main tests-3] New playlist name = Degas
+2024-05-19 14:05:08,908 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_incorrectCredentials_failedLogin3 started=========================
+2024-05-19 14:05:11,069 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-3] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:05:11,071 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-3] Decoding WebSocket Frame opCode=8
+2024-05-19 14:05:11,071 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-3] Decoding WebSocket Frame length=26
+2024-05-19 14:05:13,811 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-6] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:05:13,813 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-6] Decoding WebSocket Frame opCode=8
+2024-05-19 14:05:13,813 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-6] Decoding WebSocket Frame length=26
+2024-05-19 14:05:14,623 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_createPlaylist_playlistCreated4 started=========================
+2024-05-19 14:05:16,484 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> WZuiXZF
+2024-05-19 14:05:18,996 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_correctCredentials_successfulLogin4 started=========================
+2024-05-19 14:05:21,204 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-10] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:05:21,206 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-10] Decoding WebSocket Frame opCode=8
+2024-05-19 14:05:21,206 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-10] Decoding WebSocket Frame length=26
+2024-05-19 14:05:24,014 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-12] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:05:24,017 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-12] Decoding WebSocket Frame opCode=8
+2024-05-19 14:05:24,017 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-12] Decoding WebSocket Frame length=26
+2024-05-19 14:05:25,920 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_renamePlaylist_playlistRenamed4 started=========================
+2024-05-19 14:05:28,087 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> Dee Kay
+2024-05-19 14:05:31,878 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_incorrectCredentials_failedLogin4 started=========================
+2024-05-19 14:05:32,535 FATAL l.MainPage [TestNG-test-Main tests-3] Updating playlist id 95317
+2024-05-19 14:05:32,535 FATAL l.MainPage [TestNG-test-Main tests-3] New playlist name = Da Vinci
+2024-05-19 14:05:36,858 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-16] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:05:36,859 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-16] Decoding WebSocket Frame opCode=8
+2024-05-19 14:05:36,860 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-16] Decoding WebSocket Frame length=26
+2024-05-19 14:05:37,356 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-17] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:05:37,360 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-17] Decoding WebSocket Frame opCode=8
+2024-05-19 14:05:37,360 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-17] Decoding WebSocket Frame length=26
+2024-05-19 14:05:43,829 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_createPlaylist_playlistCreated5 started=========================
+2024-05-19 14:05:44,134 DEBUG l.l.l.l.l.InternalLoggerFactory [TestNG-test-Main tests-2] Using Log4J2 as the default logging framework
+2024-05-19 14:05:44,156 DEBUG l.l.l.ResourceLeakDetector [TestNG-test-Main tests-2] -Dio.netty.leakDetection.level: simple
+2024-05-19 14:05:44,156 DEBUG l.l.l.ResourceLeakDetector [TestNG-test-Main tests-2] -Dio.netty.leakDetection.targetRecords: 4
+2024-05-19 14:05:44,177 DEBUG l.l.l.ResourceLeakDetectorFactory [TestNG-test-Main tests-2] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6a47bc9f
+2024-05-19 14:05:44,229 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-2] -Dio.netty.noUnsafe: false
+2024-05-19 14:05:44,230 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-2] Java version: 17
+2024-05-19 14:05:44,232 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-2] sun.misc.Unsafe.theUnsafe: available
+2024-05-19 14:05:44,234 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-2] sun.misc.Unsafe.copyMemory: available
+2024-05-19 14:05:44,235 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-2] sun.misc.Unsafe.storeFence: available
+2024-05-19 14:05:44,236 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-2] java.nio.Buffer.address: available
+2024-05-19 14:05:44,238 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-2] direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:288) ~[netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:282) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:114) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:251) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:224) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:203) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111) [async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90) [async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32) [async-http-client-2.12.3.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.createHttpClient(NettyClient.java:94) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:47) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:135) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:116) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:94) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:88) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver$FirefoxDriverCommandExecutor.<init>(FirefoxDriver.java:383) [selenium-firefox-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:142) [selenium-firefox-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:131) [selenium-firefox-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127) [selenium-firefox-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112) [selenium-firefox-driver-4.9.1.jar:?]
+	at helpers.BrowserFactory.getFirefoxDriver(BrowserFactory.java:43) [test-classes/:?]
+	at helpers.BrowserFactory.getDriver(BrowserFactory.java:19) [test-classes/:?]
+	at pageObjectsTests.BaseTest.starUp(BaseTest.java:24) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [testng-7.10.1.jar:7.10.1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.10.1.jar:7.10.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+2024-05-19 14:05:44,252 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-2] java.nio.Bits.unaligned: available, true
+2024-05-19 14:05:44,254 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-2] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @1af2d44a
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:410) ~[netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:401) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:114) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:251) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:224) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:203) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111) [async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90) [async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32) [async-http-client-2.12.3.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.createHttpClient(NettyClient.java:94) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:47) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:135) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:116) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:94) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:88) [selenium-remote-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver$FirefoxDriverCommandExecutor.<init>(FirefoxDriver.java:383) [selenium-firefox-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:142) [selenium-firefox-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:131) [selenium-firefox-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127) [selenium-firefox-driver-4.9.1.jar:?]
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112) [selenium-firefox-driver-4.9.1.jar:?]
+	at helpers.BrowserFactory.getFirefoxDriver(BrowserFactory.java:43) [test-classes/:?]
+	at helpers.BrowserFactory.getDriver(BrowserFactory.java:19) [test-classes/:?]
+	at pageObjectsTests.BaseTest.starUp(BaseTest.java:24) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [testng-7.10.1.jar:7.10.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [testng-7.10.1.jar:7.10.1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.10.1.jar:7.10.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+2024-05-19 14:05:44,259 DEBUG l.l.l.l.PlatformDependent0 [TestNG-test-Main tests-2] java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2024-05-19 14:05:44,259 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-2] sun.misc.Unsafe: available
+2024-05-19 14:05:44,261 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-2] maxDirectMemory: 17104371712 bytes (maybe)
+2024-05-19 14:05:44,262 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-2] -Dio.netty.tmpdir: C:\Users\acade\AppData\Local\Temp (java.io.tmpdir)
+2024-05-19 14:05:44,262 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-2] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-05-19 14:05:44,264 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-2] Platform: Windows
+2024-05-19 14:05:44,267 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-2] -Dio.netty.maxDirectMemory: -1 bytes
+2024-05-19 14:05:44,267 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-2] -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-05-19 14:05:44,269 DEBUG l.l.l.l.CleanerJava9 [TestNG-test-Main tests-2] java.nio.ByteBuffer.cleaner(): available
+2024-05-19 14:05:44,270 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-2] -Dio.netty.noPreferDirect: false
+2024-05-19 14:05:44,295 DEBUG l.l.l.l.PlatformDependent [TestNG-test-Main tests-2] org.jctools-core.MpscChunkedArrayQueue: available
+2024-05-19 14:05:44,344 DEBUG l.l.l.l.InternalThreadLocalMap [TestNG-test-Main tests-2] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-05-19 14:05:44,344 DEBUG l.l.l.l.InternalThreadLocalMap [TestNG-test-Main tests-2] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-05-19 14:05:44,484 DEBUG l.l.l.l.JdkSslContext [TestNG-test-Main tests-2] Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2024-05-19 14:05:44,485 DEBUG l.l.l.l.JdkSslContext [TestNG-test-Main tests-2] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2024-05-19 14:05:44,513 DEBUG l.l.l.l.GlobalEventExecutor [TestNG-test-Main tests-2] -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2024-05-19 14:05:44,545 DEBUG l.l.l.MultithreadEventLoopGroup [TestNG-test-Main tests-2] -Dio.netty.eventLoopThreads: 16
+2024-05-19 14:05:44,573 DEBUG l.l.l.l.NioEventLoop [TestNG-test-Main tests-2] -Dio.netty.noKeySetOptimization: false
+2024-05-19 14:05:44,574 DEBUG l.l.l.l.NioEventLoop [TestNG-test-Main tests-2] -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-05-19 14:05:44,582 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_correctCredentials_successfulLogin5 started=========================
+2024-05-19 14:05:44,607 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-2] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1a9db6f0
+2024-05-19 14:05:44,621 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-2] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4e4304fc
+2024-05-19 14:05:44,630 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-2] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@27932ce7
+2024-05-19 14:05:44,637 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-2] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@40ca874e
+2024-05-19 14:05:44,643 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-2] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@38f2dae8
+2024-05-19 14:05:44,647 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-2] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6ec05dee
+2024-05-19 14:05:44,651 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-2] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@508ab0c5
+2024-05-19 14:05:44,656 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-2] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@44eead6d
+2024-05-19 14:05:44,662 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-2] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6a651a82
+2024-05-19 14:05:44,667 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-2] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@626050d
+2024-05-19 14:05:44,672 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-2] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3af8194
+2024-05-19 14:05:44,677 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-2] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@321bc149
+2024-05-19 14:05:44,682 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-2] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@70687c82
+2024-05-19 14:05:44,686 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-2] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@46d001ef
+2024-05-19 14:05:44,691 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-2] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@390c8b80
+2024-05-19 14:05:44,697 TRACE l.l.l.l.NioEventLoop [TestNG-test-Main tests-2] instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@55f11461
+2024-05-19 14:05:44,745 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-2] -Dio.netty.allocator.numHeapArenas: 16
+2024-05-19 14:05:44,745 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-2] -Dio.netty.allocator.numDirectArenas: 16
+2024-05-19 14:05:44,745 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-2] -Dio.netty.allocator.pageSize: 8192
+2024-05-19 14:05:44,746 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-2] -Dio.netty.allocator.maxOrder: 9
+2024-05-19 14:05:44,746 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-2] -Dio.netty.allocator.chunkSize: 4194304
+2024-05-19 14:05:44,746 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-2] -Dio.netty.allocator.smallCacheSize: 256
+2024-05-19 14:05:44,746 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-2] -Dio.netty.allocator.normalCacheSize: 64
+2024-05-19 14:05:44,747 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-2] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-05-19 14:05:44,747 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-2] -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-05-19 14:05:44,747 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-2] -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-05-19 14:05:44,747 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-2] -Dio.netty.allocator.useCacheForAllThreads: false
+2024-05-19 14:05:44,748 DEBUG l.l.l.PooledByteBufAllocator [TestNG-test-Main tests-2] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-05-19 14:05:44,770 DEBUG l.l.l.ByteBufUtil [TestNG-test-Main tests-2] -Dio.netty.allocator.type: pooled
+2024-05-19 14:05:44,770 DEBUG l.l.l.ByteBufUtil [TestNG-test-Main tests-2] -Dio.netty.threadLocalDirectBufferSize: 0
+2024-05-19 14:05:44,771 DEBUG l.l.l.ByteBufUtil [TestNG-test-Main tests-2] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-05-19 14:05:45,544 DEBUG l.l.l.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.processId: 23296 (auto-detected)
+2024-05-19 14:05:45,549 DEBUG l.l.l.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv4Stack: false
+2024-05-19 14:05:45,549 DEBUG l.l.l.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv6Addresses: false
+2024-05-19 14:05:45,585 DEBUG l.l.l.NetUtilInitializations [Forwarding newSession on session null to remote] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-05-19 14:05:45,587 DEBUG l.l.l.NetUtil [Forwarding newSession on session null to remote] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-05-19 14:05:45,654 DEBUG l.l.l.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.machineId: 5c:3a:45:ff:fe:37:a7:5d (auto-detected)
+2024-05-19 14:05:45,723 DEBUG l.l.l.AbstractByteBuf [AsyncHttpClient-1-4] -Dio.netty.buffer.checkAccessible: true
+2024-05-19 14:05:45,724 DEBUG l.l.l.AbstractByteBuf [AsyncHttpClient-1-4] -Dio.netty.buffer.checkBounds: true
+2024-05-19 14:05:45,725 DEBUG l.l.l.ResourceLeakDetectorFactory [AsyncHttpClient-1-4] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@421c91c5
+2024-05-19 14:05:45,788 DEBUG l.l.l.Recycler [AsyncHttpClient-1-3] -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-05-19 14:05:45,790 DEBUG l.l.l.Recycler [AsyncHttpClient-1-3] -Dio.netty.recycler.ratio: 8
+2024-05-19 14:05:45,790 DEBUG l.l.l.Recycler [AsyncHttpClient-1-3] -Dio.netty.recycler.chunkSize: 32
+2024-05-19 14:05:45,790 DEBUG l.l.l.Recycler [AsyncHttpClient-1-3] -Dio.netty.recycler.blocking: false
+2024-05-19 14:05:45,791 DEBUG l.l.l.Recycler [AsyncHttpClient-1-3] -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2024-05-19 14:05:46,205 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> NTSErhg
+2024-05-19 14:05:50,668 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-6] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:05:50,671 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-6] Decoding WebSocket Frame opCode=8
+2024-05-19 14:05:50,671 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-6] Decoding WebSocket Frame length=26
+2024-05-19 14:05:52,417 DEBUG l.l.l.l.l.Brotli [AsyncHttpClient-1-3] brotli4j not in the classpath; Brotli support will be unavailable.
+2024-05-19 14:05:52,701 INFO l.Listeners [TestNG-test-Main tests-1] loginToApp_correctCredentials_successfulLogin2 started=========================
+2024-05-19 14:05:53,593 INFO l.Listeners [TestNG-test-Main tests-2] flakyTest started=========================
+2024-05-19 14:05:54,103 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_createPlaylist_playlistCreated started=========================
+2024-05-19 14:05:55,901 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-8] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:05:55,905 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-8] Decoding WebSocket Frame opCode=8
+2024-05-19 14:05:55,905 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-8] Decoding WebSocket Frame length=26
+2024-05-19 14:05:56,660 DEBUG l.l.l.l.ThreadLocalRandom [TestNG-test-Main tests-2] -Dio.netty.initialSeedUniquifier: 0x838082fe92c4bd4c
+2024-05-19 14:05:56,751 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-8] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:05:56,757 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-8] Decoding WebSocket Frame opCode=8
+2024-05-19 14:05:56,757 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-8] Decoding WebSocket Frame length=26
+2024-05-19 14:05:56,883 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> Robin Money
+2024-05-19 14:06:00,437 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-10] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:06:00,439 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-10] Decoding WebSocket Frame opCode=8
+2024-05-19 14:06:00,440 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-10] Decoding WebSocket Frame length=26
+2024-05-19 14:06:01,226 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_incorrectCredentials_failedLogin5 started=========================
+2024-05-19 14:06:04,861 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_renamePlaylist_playlistRenamed5 started=========================
+2024-05-19 14:06:05,011 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-12] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:06:05,013 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-12] Decoding WebSocket Frame opCode=8
+2024-05-19 14:06:05,013 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-12] Decoding WebSocket Frame length=26
+2024-05-19 14:06:05,147 INFO l.Listeners [TestNG-test-Main tests-2] flakyTest started=========================
+2024-05-19 14:06:06,970 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-12] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:06:06,973 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-12] Decoding WebSocket Frame opCode=8
+2024-05-19 14:06:06,973 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-12] Decoding WebSocket Frame length=26
+2024-05-19 14:06:07,186 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> Penny Lane
+2024-05-19 14:06:08,179 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-15] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:06:08,181 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-15] Decoding WebSocket Frame opCode=8
+2024-05-19 14:06:08,181 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-15] Decoding WebSocket Frame length=26
+2024-05-19 14:06:08,812 INFO l.Listeners [TestNG-test-Main tests-1] loginToApp_incorrectCredentials_failedLogin2 started=========================
+2024-05-19 14:06:12,252 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_renamePlaylist_playlistRenamed started=========================
+2024-05-19 14:06:12,949 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-13] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:06:12,951 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-13] Decoding WebSocket Frame opCode=8
+2024-05-19 14:06:12,952 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-13] Decoding WebSocket Frame length=26
+2024-05-19 14:06:14,052 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-3] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:06:14,054 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-3] Decoding WebSocket Frame opCode=8
+2024-05-19 14:06:14,055 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-3] Decoding WebSocket Frame length=26
+2024-05-19 14:06:14,334 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> Jeff Healitt
+2024-05-19 14:06:14,677 INFO l.Listeners [TestNG-test-Main tests-2] flakyTest started=========================
+2024-05-19 14:06:17,695 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-6] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:06:17,697 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-6] Decoding WebSocket Frame opCode=8
+2024-05-19 14:06:17,697 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-6] Decoding WebSocket Frame length=26
+2024-05-19 14:06:21,490 INFO l.Listeners [TestNG-test-Main tests-1] loginToApp_correctCredentials_successfulLogin3 started=========================
+2024-05-19 14:06:25,379 INFO l.Listeners [TestNG-test-Main tests-2] flakyTest started=========================
+2024-05-19 14:06:26,845 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-10] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:06:26,846 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-10] Decoding WebSocket Frame opCode=8
+2024-05-19 14:06:26,847 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-10] Decoding WebSocket Frame length=26
+2024-05-19 14:06:28,399 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-11] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:06:28,401 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-11] Decoding WebSocket Frame opCode=8
+2024-05-19 14:06:28,402 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-11] Decoding WebSocket Frame length=26
+2024-05-19 14:06:32,590 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-14] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:06:32,592 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-14] Decoding WebSocket Frame opCode=8
+2024-05-19 14:06:32,592 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-14] Decoding WebSocket Frame length=26
+2024-05-19 14:06:33,069 INFO l.Listeners [TestNG-test-Main tests-1] loginToApp_incorrectCredentials_failedLogin3 started=========================
+2024-05-19 14:06:36,215 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_correctCredentials_successfulLogin started=========================
+2024-05-19 14:06:38,645 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-2] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:06:38,649 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-2] Decoding WebSocket Frame opCode=8
+2024-05-19 14:06:38,650 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-2] Decoding WebSocket Frame length=26
+2024-05-19 14:06:40,968 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_createPlaylist_playlistCreated1 started=========================
+2024-05-19 14:06:42,452 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-5] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:06:42,454 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-5] Decoding WebSocket Frame opCode=8
+2024-05-19 14:06:42,455 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-5] Decoding WebSocket Frame length=26
+2024-05-19 14:06:43,294 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> HAewBZA
+2024-05-19 14:06:47,150 INFO l.Listeners [TestNG-test-Main tests-1] loginToApp_correctCredentials_successfulLogin4 started=========================
+2024-05-19 14:06:50,018 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_incorrectCredentials_failedLogin started=========================
+2024-05-19 14:06:50,680 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-9] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:06:50,682 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-9] Decoding WebSocket Frame opCode=8
+2024-05-19 14:06:50,682 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-9] Decoding WebSocket Frame length=26
+2024-05-19 14:06:53,063 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-10] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:06:53,065 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-10] Decoding WebSocket Frame opCode=8
+2024-05-19 14:06:53,065 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-10] Decoding WebSocket Frame length=26
+2024-05-19 14:06:55,174 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-13] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:06:55,177 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-13] Decoding WebSocket Frame opCode=8
+2024-05-19 14:06:55,177 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-13] Decoding WebSocket Frame length=26
+2024-05-19 14:06:57,259 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_renamePlaylist_playlistRenamed1 started=========================
+2024-05-19 14:06:59,438 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> Dee Major
+2024-05-19 14:06:59,899 INFO l.Listeners [TestNG-test-Main tests-1] loginToApp_incorrectCredentials_failedLogin4 started=========================
+2024-05-19 14:07:03,422 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_correctCredentials_successfulLogin1 started=========================
+2024-05-19 14:07:05,294 FATAL l.MainPage [TestNG-test-Main tests-3] Updating playlist id 95321
+2024-05-19 14:07:05,295 FATAL l.MainPage [TestNG-test-Main tests-3] New playlist name = Donatello
+2024-05-19 14:07:05,349 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-2] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:07:05,351 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-2] Decoding WebSocket Frame opCode=8
+2024-05-19 14:07:05,352 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-2] Decoding WebSocket Frame length=26
+2024-05-19 14:07:09,649 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-4] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:07:09,650 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-4] Decoding WebSocket Frame opCode=8
+2024-05-19 14:07:09,651 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-4] Decoding WebSocket Frame length=26
+2024-05-19 14:07:10,296 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-5] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:07:10,297 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-5] Decoding WebSocket Frame opCode=8
+2024-05-19 14:07:10,297 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-5] Decoding WebSocket Frame length=26
+2024-05-19 14:07:10,939 INFO l.Listeners [TestNG-test-Main tests-1] loginToApp_correctCredentials_successfulLogin5 started=========================
+2024-05-19 14:07:16,384 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-9] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:07:16,388 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-9] Decoding WebSocket Frame opCode=8
+2024-05-19 14:07:16,389 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-9] Decoding WebSocket Frame length=26
+2024-05-19 14:07:17,444 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_createPlaylist_playlistCreated2 started=========================
+2024-05-19 14:07:18,393 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_incorrectCredentials_failedLogin1 started=========================
+2024-05-19 14:07:19,451 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> uxRzJhr
+2024-05-19 14:07:23,704 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-13] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:07:23,706 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-13] Decoding WebSocket Frame opCode=8
+2024-05-19 14:07:23,707 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-13] Decoding WebSocket Frame length=26
+2024-05-19 14:07:24,604 INFO l.Listeners [TestNG-test-Main tests-1] loginToApp_incorrectCredentials_failedLogin5 started=========================
+2024-05-19 14:07:27,031 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-16] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:07:27,032 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-16] Decoding WebSocket Frame opCode=8
+2024-05-19 14:07:27,033 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-16] Decoding WebSocket Frame length=26
+2024-05-19 14:07:29,755 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-2] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:07:29,757 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-2] Decoding WebSocket Frame opCode=8
+2024-05-19 14:07:29,757 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-2] Decoding WebSocket Frame length=26
+2024-05-19 14:07:30,620 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_correctCredentials_successfulLogin2 started=========================
+2024-05-19 14:07:34,182 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_renamePlaylist_playlistRenamed2 started=========================
+2024-05-19 14:07:36,125 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> Dan D. Lyon
+2024-05-19 14:07:36,547 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-5] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:07:36,550 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-5] Decoding WebSocket Frame opCode=8
+2024-05-19 14:07:36,550 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-5] Decoding WebSocket Frame length=26
+2024-05-19 14:07:39,527 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-7] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:07:39,529 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-7] Decoding WebSocket Frame opCode=8
+2024-05-19 14:07:39,529 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-7] Decoding WebSocket Frame length=26
+2024-05-19 14:07:41,067 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_incorrectCredentials_failedLogin2 started=========================
+2024-05-19 14:07:44,751 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_createPlaylist_playlistCreated3 started=========================
+2024-05-19 14:07:46,032 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-11] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:07:46,034 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-11] Decoding WebSocket Frame opCode=8
+2024-05-19 14:07:46,034 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-11] Decoding WebSocket Frame length=26
+2024-05-19 14:07:46,532 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> PCQfcqp
+2024-05-19 14:07:50,028 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-13] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:07:50,030 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-13] Decoding WebSocket Frame opCode=8
+2024-05-19 14:07:50,030 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-13] Decoding WebSocket Frame length=26
+2024-05-19 14:07:52,139 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_correctCredentials_successfulLogin3 started=========================
+2024-05-19 14:07:59,065 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_renamePlaylist_playlistRenamed3 started=========================
+2024-05-19 14:07:59,791 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-17] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:07:59,792 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-17] Decoding WebSocket Frame opCode=8
+2024-05-19 14:07:59,793 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-17] Decoding WebSocket Frame length=26
+2024-05-19 14:08:01,320 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> Dee Sember
+2024-05-19 14:08:06,576 FATAL l.MainPage [TestNG-test-Main tests-3] Updating playlist id 95323
+2024-05-19 14:08:06,576 FATAL l.MainPage [TestNG-test-Main tests-3] New playlist name = Da Vinci
+2024-05-19 14:08:09,807 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_incorrectCredentials_failedLogin3 started=========================
+2024-05-19 14:08:11,010 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-4] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:08:11,015 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-4] Decoding WebSocket Frame opCode=8
+2024-05-19 14:08:11,016 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-4] Decoding WebSocket Frame length=26
+2024-05-19 14:08:15,312 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-6] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:08:15,314 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-6] Decoding WebSocket Frame opCode=8
+2024-05-19 14:08:15,315 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-6] Decoding WebSocket Frame length=26
+2024-05-19 14:08:18,005 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_createPlaylist_playlistCreated4 started=========================
+2024-05-19 14:08:20,329 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> pDbsNEX
+2024-05-19 14:08:21,653 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_correctCredentials_successfulLogin4 started=========================
+2024-05-19 14:08:28,739 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-10] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:08:28,744 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-10] Decoding WebSocket Frame opCode=8
+2024-05-19 14:08:28,744 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-10] Decoding WebSocket Frame length=26
+2024-05-19 14:08:28,846 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-11] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:08:28,848 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-11] Decoding WebSocket Frame opCode=8
+2024-05-19 14:08:28,848 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-11] Decoding WebSocket Frame length=26
+2024-05-19 14:08:34,805 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_renamePlaylist_playlistRenamed4 started=========================
+2024-05-19 14:08:34,966 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_incorrectCredentials_failedLogin4 started=========================
+2024-05-19 14:08:37,092 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> Count Orff
+2024-05-19 14:08:40,018 FATAL l.MainPage [TestNG-test-Main tests-3] Updating playlist id 95325
+2024-05-19 14:08:40,019 FATAL l.MainPage [TestNG-test-Main tests-3] New playlist name = Gauguin
+2024-05-19 14:08:40,356 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-16] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:08:40,357 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-16] Decoding WebSocket Frame opCode=8
+2024-05-19 14:08:40,358 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-16] Decoding WebSocket Frame length=26
+2024-05-19 14:08:43,794 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-2] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:08:43,796 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-2] Decoding WebSocket Frame opCode=8
+2024-05-19 14:08:43,796 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-2] Decoding WebSocket Frame length=26
+2024-05-19 14:08:44,895 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_correctCredentials_successfulLogin5 started=========================
+2024-05-19 14:08:48,899 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_createPlaylist_playlistCreated5 started=========================
+2024-05-19 14:08:50,735 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-6] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:08:50,736 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-6] Decoding WebSocket Frame opCode=8
+2024-05-19 14:08:50,737 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-6] Decoding WebSocket Frame length=26
+2024-05-19 14:08:51,253 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> uIuufiG
+2024-05-19 14:08:56,380 INFO l.Listeners [TestNG-test-Main tests-2] loginToApp_incorrectCredentials_failedLogin5 started=========================
+2024-05-19 14:08:57,356 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-9] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:08:57,357 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-9] Decoding WebSocket Frame opCode=8
+2024-05-19 14:08:57,358 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-9] Decoding WebSocket Frame length=26
+2024-05-19 14:09:01,647 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-11] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:09:01,649 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-11] Decoding WebSocket Frame opCode=8
+2024-05-19 14:09:01,649 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-11] Decoding WebSocket Frame length=26
+2024-05-19 14:09:01,805 INFO l.Listeners [TestNG-test-Main tests-3] playlistTests_renamePlaylist_playlistRenamed5 started=========================
+2024-05-19 14:09:04,088 INFO l.MainPage [TestNG-test-Main tests-3] Create Playlist with name -> Bonnie Ann Clyde
+2024-05-19 14:09:06,573 FATAL l.MainPage [TestNG-test-Main tests-3] Updating playlist id 95327
+2024-05-19 14:09:06,574 FATAL l.MainPage [TestNG-test-Main tests-3] New playlist name = Warhol
+2024-05-19 14:09:10,391 TRACE l.l.l.l.l.l.WebSocket08FrameEncoder [AsyncHttpClient-1-13] Encoding WebSocket Frame opCode=8 length=26
+2024-05-19 14:09:10,393 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-13] Decoding WebSocket Frame opCode=8
+2024-05-19 14:09:10,393 TRACE l.l.l.l.l.l.WebSocket08FrameDecoder [AsyncHttpClient-1-13] Decoding WebSocket Frame length=26
