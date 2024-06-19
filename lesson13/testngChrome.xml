@@ -6,7 +6,7 @@
     <parameter name="username" value="academic198405@gmail.com"/>
     <parameter name="password" value="te$t$tudent"/>
     <parameter name="wrongpassword" value="te$s$tudent9"/>
-    <parameter name="browser" value="xxxxx"/>
+    <parameter name="browser" value="chrome"/>
     <test name="Main tests">
         <classes>
             <class name="pageObjectsTests.LoginToAppFactory">

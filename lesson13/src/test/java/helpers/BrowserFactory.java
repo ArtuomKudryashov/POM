@@ -27,7 +27,7 @@ public class BrowserFactory {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("window-size=1920,1080");
         options.addArguments("--start-maximized");
-        options.addArguments("--headless");
+//        options.addArguments("--headless");
         WebDriverManager.chromedriver().setup();
 
         return new ChromeDriver(options);
@@ -37,7 +37,7 @@ public class BrowserFactory {
         FirefoxOptions options = new FirefoxOptions();
         options.addArguments("--width=1000");
         options.addArguments("--height=1400");
-        options.addArguments("--headless");
+//        options.addArguments("--headless");
 
         WebDriverManager.firefoxdriver().setup();
         return new FirefoxDriver(options);
